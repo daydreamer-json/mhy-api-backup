@@ -1,0 +1,29 @@
+{
+  "game": {
+    "latest": {
+      "name": "",
+      "version": "0.2.0",
+      "path": "https://autopatchos.zenlesszonezero.com/download/windows/0.2.0/j0fGHf10yF5n/Zenless_Zone_Zero_(Beta).zip",
+      "size": "73200198576",
+      "md5": "778c434fe18532974018bf992015b214",
+      "entry": "ZZZ.exe",
+      "voice_packs": [],
+      "decompressed_path": "",
+      "segments": [],
+      "package_size": "36594856408"
+    },
+    "diffs": []
+  },
+  "plugin": null,
+  "web_url": "https://zenless.hoyoverse.com/launcher",
+  "force_update": null,
+  "pre_download_game": null,
+  "deprecated_packages": [
+    {
+      "name": "Zenless Zone Zero (Beta).zip",
+      "md5": "1d7747a0d19bbb66f37cce1108b63cdf"
+    }
+  ],
+  "sdk": null,
+  "deprecated_files": []
+}
