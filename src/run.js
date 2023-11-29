@@ -51,18 +51,17 @@ async function main () {
       logger.trace(`Returned from fileManageDiffVerifier`);
       logger.debug(`All local and remote response JSON has been verified`);
       logger.trace(`Verify result:`);
-      if (logger.level == 'TRACE') console.log(fileManageDiffVerifyOutput);
+      // if (logger.level == 'TRACE') console.log(fileManageDiffVerifyOutput);
       if (fileManageDiffVerifyOutput.needWriteFlagCount > 0) {
         logger.debug(`Writing response JSON to local file ...`);
         logger.trace(`Running fileManageWriterRunner ...`);
         await fileManageWriterRunner(apiResponseObj, fileManageReaderOutput.loadedObj, fileManageDiffVerifyOutput);
         logger.trace(`Returned from fileManageWriterRunner`);
         logger.debug(`Wrote response JSON to local file`);
-        logger.info(`All process has been completed`);
       } else {
         logger.info(`Local writes were skipped because there were no remote updates`);
-        logger.info(`All process has been completed`);
       }
+      logger.info(`All process has been completed (^_^)`);
     }
   }
 }
@@ -101,6 +100,17 @@ async function apiConnectRunner () {
           'version': resData.data.game.latest.version
         });
         responseObject[definition.gameName][definition.serverName] = resData.data;
+        responseObject[definition.gameName][definition.serverName].deprecated_files.sort((a, b) => {
+          const nameA = a.name.toUpperCase();
+          const nameB = b.name.toUpperCase();
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
         logger.debug(`Downloaded ${definition.url.replace(/https:\/\/|\/mdk\/launcher\/api\/resource/g, '')}`);
       }
     } catch (error) {

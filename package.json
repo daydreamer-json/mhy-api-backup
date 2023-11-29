@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/run.js",
   "scripts": {
-    "start": "node src/run.js",
+    "start": "node src/run.js && git add . && git commit -m \"API JSON update\" && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
