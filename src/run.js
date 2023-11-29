@@ -132,7 +132,8 @@ async function apiConnect (url, id, key) {
         'key': key
       },
       'headers': {
-        'User-Agent': 'Mozilla/5.0'
+        'User-Agent': 'Mozilla/5.0',
+        'Cache-Control': 'no-cache'
       },
       'timeout': apiConnectTimeout,
     });
