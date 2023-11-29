@@ -423,7 +423,7 @@
   "sdk": null,
   "deprecated_files": [
     {
-      "name": "GenshinImpact_Data/Plugins/InControlNative.dll",
+      "name": "GenshinImpact_Data/Plugins/d3dcompiler_43.dll",
       "md5": ""
     },
     {
@@ -431,19 +431,11 @@
       "md5": ""
     },
     {
-      "name": "GenshinImpact_Data/Plugins/metakeeper.dll",
-      "md5": ""
-    },
-    {
-      "name": "GenshinImpact_Data/Plugins/d3dcompiler_43.dll",
-      "md5": ""
-    },
-    {
-      "name": "GenshinImpact_Data/Plugins/PCGameSDK.dll",
-      "md5": ""
-    },
-    {
       "name": "GenshinImpact_Data/Plugins/sqlite3.dll",
+      "md5": ""
+    },
+    {
+      "name": "GenshinImpact_Data/Plugins/InControlNative.dll",
       "md5": ""
     },
     {
@@ -459,7 +451,15 @@
       "md5": ""
     },
     {
+      "name": "GenshinImpact_Data/Plugins/metakeeper.dll",
+      "md5": ""
+    },
+    {
       "name": "mhyprot3.Sys",
+      "md5": ""
+    },
+    {
+      "name": "GenshinImpact_Data/Plugins/PCGameSDK.dll",
       "md5": ""
     },
     {
