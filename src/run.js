@@ -1,8 +1,10 @@
 const log4js = require('log4js');
 const color = require('ansi-colors');
+const clui = require('clui');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const termKit = require('terminal-kit').terminal;
 
 log4js.configure({
   appenders: {
@@ -22,8 +24,9 @@ console.log(`Logger started (level: ${logger.level})`);
 if (logger.level != 'TRACE') console.log(`Logs with levels less than '${logger.level}' are truncated`);
 logger.trace('Program has been started');
 
+const spinnerSeq = ["⠋","⠙","⠹","⠸","⠼","⠴","⠦","⠧","⠇","⠏"];
 const rootDirectory = path.resolve(path.join('.', 'output'));
-const apiConnectDelay = 100;
+const apiConnectDelay = 0;
 const apiConnectTimeout = 20000;
 const apiDefinition = JSON.parse(atob('eyJnYW1lTGlzdCI6WyJiaDMiLCJoazRlIiwiaGtycGciLCJuYXAiXSwic2VydmVyTGlzdCI6eyJiaDMiOlsiY24iLCJqcCIsInR3Iiwia3IiLCJzZWEiLCJldSJdLCJoazRlIjpbImNuIiwib3MiXSwiaGtycGciOlsiY24iLCJvcyJdLCJuYXAiOlsib3MiXX0sImRlZmluaXRpb24iOnsiYmgzIjp7ImNuIjp7InVybCI6Imh0dHBzOi8vYmgzLWxhdW5jaGVyLXN0YXRpYy5taWhveW8uY29tL2JoM19jbi9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjQsImtleSI6IlN5dnVQbnFMIiwiZW5hYmxlZCI6dHJ1ZX0sImpwIjp7InVybCI6Imh0dHBzOi8vc2RrLW9zLXN0YXRpYy5ob3lvdmVyc2UuY29tL2JoM19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxOSwia2V5Ijoib2pldlowRXlJeVpOQ3k0biIsImVuYWJsZWQiOnRydWV9LCJ0dyI6eyJ1cmwiOiJodHRwczovL3Nkay1vcy1zdGF0aWMuaG95b3ZlcnNlLmNvbS9iaDNfZ2xvYmFsL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6OCwia2V5IjoiZGVtaFVUY1ciLCJlbmFibGVkIjp0cnVlfSwia3IiOnsidXJsIjoiaHR0cHM6Ly9zZGstb3Mtc3RhdGljLmhveW92ZXJzZS5jb20vYmgzX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjExLCJrZXkiOiJQUmc1NzFYaCIsImVuYWJsZWQiOnRydWV9LCJzZWEiOnsidXJsIjoiaHR0cHM6Ly9zZGstb3Mtc3RhdGljLmhveW92ZXJzZS5jb20vYmgzX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjksImtleSI6InRFR050VmhOIiwiZW5hYmxlZCI6dHJ1ZX0sImV1Ijp7InVybCI6Imh0dHBzOi8vc2RrLW9zLXN0YXRpYy5ob3lvdmVyc2UuY29tL2JoM19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxMCwia2V5IjoiZHB6NjV4SjMiLCJlbmFibGVkIjp0cnVlfX0sImhrNGUiOnsiY24iOnsidXJsIjoiaHR0cHM6Ly9zZGstc3RhdGljLm1paG95by5jb20vaGs0ZV9jbi9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjE4LCJrZXkiOiJlWWQ4OUptSiIsImVuYWJsZWQiOnRydWV9LCJvcyI6eyJ1cmwiOiJodHRwczovL3Nkay1vcy1zdGF0aWMuaG95b3ZlcnNlLmNvbS9oazRlX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjEwLCJrZXkiOiJnY1N0Z2FyaCIsImVuYWJsZWQiOnRydWV9LCJiZXRhX29zIjp7InVybCI6Imh0dHBzOi8vaGs0ZS1iZXRhLWxhdW5jaGVyLXN0YXRpYy5ob3lvdmVyc2UuY29tL2hrNGVfZ2xvYmFsL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6bnVsbCwia2V5IjpudWxsLCJlbmFibGVkIjpmYWxzZX19LCJoa3JwZyI6eyJjbiI6eyJ1cmwiOiJodHRwczovL2FwaS1sYXVuY2hlci5taWhveW8uY29tL2hrcnBnX2NuL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6MzMsImtleSI6IjZLY1Z1T2tiY3FqSm9taloiLCJlbmFibGVkIjp0cnVlfSwib3MiOnsidXJsIjoiaHR0cHM6Ly9oa3JwZy1sYXVuY2hlci1zdGF0aWMuaG95b3ZlcnNlLmNvbS9oa3JwZ19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjozNSwia2V5IjoidnBsT1ZYOFZuN2N3Rzh5YiIsImVuYWJsZWQiOnRydWV9fSwibmFwIjp7Im9zIjp7InVybCI6Imh0dHBzOi8vbmFwLWxhdW5jaGVyLXN0YXRpYy5ob3lvdmVyc2UuY29tL25hcF9nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxMSwia2V5IjoiU3hLT2dsclVzSkZ4cUU0SSIsImVuYWJsZWQiOnRydWV9fX19'));
 const namePrettyDefinition = JSON.parse(atob('eyJnYW1lTmFtZSI6eyJiaDMiOiJIb25rYWkgSW1wYWN0IDNyZCIsImhrNGUiOiJHZW5zaGluIEltcGFjdCIsImhrcnBnIjoiSG9ua2FpOiBTdGFyIFJhaWwiLCJuYXAiOiJaZW5sZXNzIFpvbmUgWmVybyJ9LCJzZXJ2ZXJOYW1lIjp7ImNuIjoiQ04gKENoaW5hKSIsImNuX2JpbGliaWxpIjoiQ04gQmlsaUJpbGkgKENoaW5hKSIsIm9zIjoiR2xvYmFsIChPdmVyc2VhcykiLCJqcCI6IkpQIChKYXBhbikiLCJ0dyI6IlRXL0hLL01PIChUcmFkaXRpb25hbCBDaGluZXNlKSIsImtyIjoiS1IgKEtvcmVhKSIsInNlYSI6IlNFQSAoU291dGhlYXN0IEFzaWEpIiwiZXUiOiJHbG9iYWwgKEV1cm9wZSAvIEFtZXJpY2EpIn19'));
@@ -32,6 +35,16 @@ async function main () {
   logger.trace(`Running apiConnectRunner ...`);
   const apiResponseReturned = await apiConnectRunner();
   const apiResponseObj = apiResponseReturned[0];
+  termKit.table(objArrToArrArr(apiResponseReturned[1]), {
+    hasBorder: false,
+    contentHasMarkup: true,
+    // borderChars: 'lightRounded',
+    // borderAttr: { color: 'white' },
+    textAttr: {bgColor: 'default'},
+    firstRowTextAttr: {bgColor: 'white', color: 'black'},
+    width: 80,
+    fit: true
+  });
   logger.trace(`Returned from apiConnectRunner`);
   logger.info(`All downloads from the API are complete`)
   if (apiResponseObj && Object.keys(apiResponseObj).length === apiDefinition.gameList.length) {
@@ -50,7 +63,7 @@ async function main () {
       const fileManageDiffVerifyOutput = await fileManageDiffVerifier(apiResponseObj, fileManageReaderOutput.loadedObj, fileManageReaderOutput.notExistsFileArray);
       logger.trace(`Returned from fileManageDiffVerifier`);
       logger.debug(`All local and remote response JSON has been verified`);
-      logger.trace(`Verify result:`);
+      // logger.trace(`Verify result:`);
       // if (logger.level == 'TRACE') console.log(fileManageDiffVerifyOutput);
       if (fileManageDiffVerifyOutput.needWriteFlagCount > 0) {
         logger.debug(`Writing response JSON to local file ...`);
@@ -62,13 +75,13 @@ async function main () {
         logger.info(`Local writes were skipped because there were no remote updates`);
       }
       logger.info(`All process has been completed (^_^)`);
+      await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
 }
 
 async function apiConnectRunner () {
   logger.info(`Connecting to API ...`);
-  logger.trace(`API connection delay: ${apiConnectDelay} ms`);
   const definitionList = new Array();
   const responseDispList = new Array();
   const responseObject = new Object();
@@ -91,8 +104,10 @@ async function apiConnectRunner () {
     logger.trace(`Delaying connect ...`)
     if (apiConnectDelay !== null) await new Promise(resolve => setTimeout(resolve, apiConnectDelay));
     logger.trace(`Requesting ${definition.url.replace(/https:\/\/|\/mdk\/launcher\/api\/resource/g, '')} ...`);
+    let spinner = new clui.Spinner (`Requesting ${definition.url.replace(/https:\/\/|\/mdk\/launcher\/api\/resource/g, '')} ...`, spinnerSeq);
+    spinner.start();
     try {
-      const resData = await apiConnect(`${definition.url}`, definition.id, definition.key);
+      const resData = await apiConnect(`${definition.url}`, definition.id, definition.key, spinner);
       if (resData) {
         responseDispList.push({
           'game': namePrettyDefinition["gameName"][definition.gameName],
@@ -131,7 +146,7 @@ async function apiConnectRunner () {
   }
 }
 
-async function apiConnect (url, id, key) {
+async function apiConnect (url, id, key, spinner) {
   let connectionTimer = process.hrtime();
   try {
     const response = await axios({
@@ -148,10 +163,12 @@ async function apiConnect (url, id, key) {
       'timeout': apiConnectTimeout,
     });
     let connectionTimeResult = process.hrtime(connectionTimer);
+    spinner.stop();
     logger.trace(`API connection time: ${(connectionTimeResult[0] * 1e9 + connectionTimeResult[1]) / 1e6} ms`);
     return response.data;
   } catch (error) {
     let connectionTimeResult = process.hrtime(connectionTimer);
+    spinner.stop();
     logger.trace(`API connection time: ${(connectionTimeResult[0] * 1e9 + connectionTimeResult[1]) / 1e6} ms`);
     logger.error(`API request failed: ${error.code}`);
     // console.error(error);
@@ -268,6 +285,34 @@ function formatFileSize (bytes, decimals = 2) {
   const sizes = ['bytes', 'KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+}
+
+// function truncateObjectByKeyDepth(obj, depth) {
+//   if (depth === 0) {
+//       return "truncated";
+//   }
+//   let newObj = {};
+//   for (let key in obj) {
+//       if (typeof obj[key] === 'object' && obj[key] !== null) {
+//           newObj[key] = extractObjectDepth(obj[key], depth - 1);
+//       } else {
+//           newObj[key] = obj[key];
+//       }
+//   }
+//   return newObj;
+// }
+
+function objArrToArrArr (objectArray) {
+  let outputArr = new Array();
+  outputArr.push(Object.keys(objectArray[0]));
+  for (let i = 0; i < objectArray.length; i++) {
+    let pushArr = new Array();
+    outputArr[0].forEach((key) => {
+      pushArr.push(objectArray[i][key]);
+    })
+    outputArr.push(pushArr);
+  }
+  return outputArr;
 }
 
 main();
