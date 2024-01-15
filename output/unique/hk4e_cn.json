@@ -176,13 +176,13 @@
         "name": "DXSETUP.zip",
         "version": "",
         "path": "https://autopatchcn.yuanshen.com/client_app/plugins/DXSETUP.zip",
-        "size": "100647892",
+        "size": "211781544",
         "md5": "CA2AC3835D7D7DA6CB8624FEFB177083",
         "entry": "",
-        "package_size": "0"
+        "package_size": "100647892"
       }
     ],
-    "version": "1"
+    "version": "3"
   },
   "web_url": "https://ys.mihoyo.com/launcher",
   "force_update": null,
