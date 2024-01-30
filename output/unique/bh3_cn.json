@@ -17,7 +17,21 @@
   "plugin": null,
   "web_url": "https://www.bh3.com/launcher",
   "force_update": null,
-  "pre_download_game": null,
+  "pre_download_game": {
+    "latest": {
+      "name": "",
+      "version": "7.3.0",
+      "path": "https://bundle.bh3.com/ptpublic/rel/20240129110128_8vnNEN2tuKyZwUhB/PC/BH3_v7.3.0_971816bb764a.7z",
+      "size": "33445486736",
+      "md5": "727629a89b875734b699d9f49d885b65",
+      "entry": "BH3.exe",
+      "voice_packs": [],
+      "decompressed_path": "https://bundle.bh3.com/ptpublic/rel/20240129110128_8vnNEN2tuKyZwUhB/PC/extract",
+      "segments": [],
+      "package_size": "16717500488"
+    },
+    "diffs": []
+  },
   "deprecated_packages": [
     {
       "name": "BH3_v7.1.0_2370cca635c2.7z",
@@ -54,10 +68,6 @@
     {
       "name": "BH3_v6.3.0_102c3ff09afb.7z",
       "md5": "f87da7a3aa3f4b0d47687cbe97ed757b"
-    },
-    {
-      "name": "BH3_v6.2.0_3eb0db30afc9.7z",
-      "md5": "fb65d7fa3ee2d3bfbc092f497aca8661"
     }
   ],
   "sdk": null,
