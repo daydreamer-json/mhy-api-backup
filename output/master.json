@@ -84,7 +84,21 @@
       "plugin": null,
       "web_url": "https://honkaiimpact3.mihoyo.com/launcher",
       "force_update": null,
-      "pre_download_game": null,
+      "pre_download_game": {
+        "latest": {
+          "name": "",
+          "version": "7.4.0",
+          "path": "https://hk-bigfile-jp-mihayo.akamaized.net/ptpublic/bh3_jp/20240418172021_e7JA5gjVJDx2Zi9e/BH3_v7.4.0_94a9fe15271d.7z",
+          "size": "34919148534",
+          "md5": "e215adc59d6617b92087527d03659a49",
+          "entry": "BH3.exe",
+          "voice_packs": [],
+          "decompressed_path": "https://hk-bigfile-jp-mihayo.akamaized.net/ptpublic/bh3_jp/20240418172021_e7JA5gjVJDx2Zi9e/extract",
+          "segments": [],
+          "package_size": "17454331387"
+        },
+        "diffs": []
+      },
       "deprecated_packages": [
         {
           "name": "BH3_v7.2.0_dc5a050c8534.7z",
@@ -121,10 +135,6 @@
         {
           "name": "BH3_v6.4.0_5383b5abf840.7z",
           "md5": "6fcc3133abddd497352e5df0b4614dea"
-        },
-        {
-          "name": "BH3_v6.3.0_c923000a5a31.7z",
-          "md5": "76ec70c8d2d15bd5428c086a031f932c"
         }
       ],
       "sdk": null,
@@ -149,7 +159,21 @@
       "plugin": null,
       "web_url": "https://honkaiimpact3.mihoyo.com/launcher",
       "force_update": null,
-      "pre_download_game": null,
+      "pre_download_game": {
+        "latest": {
+          "name": "",
+          "version": "7.4.0",
+          "path": "https://hk-bigfile-asia-mihayo.akamaized.net/ptpublic/bh3_tw/20240418174149_B3GXnykRvQHhY6dK/BH3_v7.4.0_94a9fe15271d.7z",
+          "size": "35129115674",
+          "md5": "c628beb38fcac482a0ed19efffb6032a",
+          "entry": "BH3.exe",
+          "voice_packs": [],
+          "decompressed_path": "https://hk-bigfile-asia-mihayo.akamaized.net/ptpublic/bh3_tw/20240418174149_B3GXnykRvQHhY6dK/extract",
+          "segments": [],
+          "package_size": "17559314957"
+        },
+        "diffs": []
+      },
       "deprecated_packages": [
         {
           "name": "BH3_v7.2.0_b2a1fd200642.7z",
@@ -186,10 +210,6 @@
         {
           "name": "BH3_v6.4.0_5383b5abf840.7z",
           "md5": "ed88f824ccadc4583fe949299ef587d0"
-        },
-        {
-          "name": "BH3_v6.3.0_a023a155d5d0.7z",
-          "md5": "c0d06930c7e5a64b67f286111098c1e2"
         }
       ],
       "sdk": null,
@@ -214,7 +234,21 @@
       "plugin": null,
       "web_url": "https://honkaiimpact3.mihoyo.com/launcher",
       "force_update": null,
-      "pre_download_game": null,
+      "pre_download_game": {
+        "latest": {
+          "name": "",
+          "version": "7.4.0",
+          "path": "https://hk-bigfile-kr-mihayo.akamaized.net/ptpublic/bh3_kr/20240418172121_zOKBjWORnEzhVmw9/BH3_v7.4.0_94a9fe15271d.7z",
+          "size": "35099296032",
+          "md5": "55e090ba12c88466645d8168b1da1d2d",
+          "entry": "BH3.exe",
+          "voice_packs": [],
+          "decompressed_path": "https://hk-bigfile-kr-mihayo.akamaized.net/ptpublic/bh3_kr/20240418172121_zOKBjWORnEzhVmw9/extract",
+          "segments": [],
+          "package_size": "17544405136"
+        },
+        "diffs": []
+      },
       "deprecated_packages": [
         {
           "name": "BH3_v7.2.0_b2a1fd200642.7z",
@@ -251,10 +285,6 @@
         {
           "name": "BH3_v6.4.0_5383b5abf840.7z",
           "md5": "e76206d41cc94bf7b51d0f220b408008"
-        },
-        {
-          "name": "BH3_v6.3.0_a023a155d5d0.7z",
-          "md5": "e6d087c3ec9bd37efbe4e3fba4bb421b"
         }
       ],
       "sdk": null,
@@ -279,7 +309,21 @@
       "plugin": null,
       "web_url": "https://honkaiimpact3.mihoyo.com/launcher",
       "force_update": null,
-      "pre_download_game": null,
+      "pre_download_game": {
+        "latest": {
+          "name": "",
+          "version": "7.4.0",
+          "path": "https://hk-bigfile-os-mihayo.akamaized.net/ptpublic/bh3_overseas/20240418172235_cczNlXspOkLe1lLc/BH3_v7.4.0_94a9fe15271d.7z",
+          "size": "36144888018",
+          "md5": "24dfae1801f351ef053941154658a97e",
+          "entry": "BH3.exe",
+          "voice_packs": [],
+          "decompressed_path": "https://hk-bigfile-os-mihayo.akamaized.net/ptpublic/bh3_overseas/20240418172235_cczNlXspOkLe1lLc/extract",
+          "segments": [],
+          "package_size": "18067201129"
+        },
+        "diffs": []
+      },
       "deprecated_packages": [
         {
           "name": "BH3_v7.2.0_b2a1fd200642.7z",
@@ -316,10 +360,6 @@
         {
           "name": "BH3_v6.4.0_5383b5abf840.7z",
           "md5": "ce5794f84632e887cb5e1fe512524bfc"
-        },
-        {
-          "name": "BH3_v6.3.0_f79a08e4749f.7z",
-          "md5": "0a23274b8c4ba6f109e8951ff81da21d"
         }
       ],
       "sdk": null,
@@ -344,7 +384,21 @@
       "plugin": null,
       "web_url": "https://honkaiimpact3.mihoyo.com/launcher",
       "force_update": null,
-      "pre_download_game": null,
+      "pre_download_game": {
+        "latest": {
+          "name": "",
+          "version": "7.4.0",
+          "path": "https://hk-bigfile-west-mihayo.akamaized.net/ptpublic/bh3_glb/20240418171457_DfrsvsXiiWXoKRh3/BH3_v7.4.0_94a9fe15271d.7z",
+          "size": "35853538346",
+          "md5": "e184527f3a12bccab765279518041ac4",
+          "entry": "BH3.exe",
+          "voice_packs": [],
+          "decompressed_path": "https://hk-bigfile-west-mihayo.akamaized.net/ptpublic/bh3_glb/20240418171457_DfrsvsXiiWXoKRh3/extract",
+          "segments": [],
+          "package_size": "17921526293"
+        },
+        "diffs": []
+      },
       "deprecated_packages": [
         {
           "name": "BH3_v7.2.0_b2a1fd200642.7z",
@@ -381,10 +435,6 @@
         {
           "name": "BH3_v6.4.0_5383b5abf840.7z",
           "md5": "bd38b638405905b3ae8fa156ccd107b5"
-        },
-        {
-          "name": "BH3_v6.3.0_c923000a5a31.7z",
-          "md5": "67930b07e49cedda2e78f69d9858737d"
         }
       ],
       "sdk": null,
