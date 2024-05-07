@@ -1204,130 +1204,6 @@
       "game": {
         "latest": {
           "name": "",
-          "version": "2.1.0",
-          "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/StarRail_2.1.0.zip",
-          "size": "60776975010",
-          "md5": "bfdbb18fba9231d63e72e5808b6521d0",
-          "entry": "StarRail.exe",
-          "voice_packs": [
-            {
-              "language": "zh-cn",
-              "name": "",
-              "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/Chinese.zip",
-              "size": "8133025100",
-              "md5": "5737ad765fa7b6eac8210ee4f2eeeb39",
-              "package_size": "4061269670"
-            },
-            {
-              "language": "zh-tw",
-              "name": "",
-              "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/Chinese.zip",
-              "size": "8133025100",
-              "md5": "5737ad765fa7b6eac8210ee4f2eeeb39",
-              "package_size": "4061269670"
-            },
-            {
-              "language": "en-us",
-              "name": "",
-              "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/English.zip",
-              "size": "9706233934",
-              "md5": "1f6a530b341f4b82f612fe6004b1bdbf",
-              "package_size": "4847874087"
-            },
-            {
-              "language": "ja-jp",
-              "name": "",
-              "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/Japanese.zip",
-              "size": "10386955160",
-              "md5": "f9b0c514915369f3b9155127684f8d51",
-              "package_size": "5188234700"
-            },
-            {
-              "language": "ko-kr",
-              "name": "",
-              "path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/Korean.zip",
-              "size": "8236153976",
-              "md5": "5443d68b0a5adb03ab92c8fb4eb7df24",
-              "package_size": "4112834108"
-            }
-          ],
-          "decompressed_path": "https://autopatchcn.bhsr.com/client/cn/20240315111623_TbwRoPayP3dE1p79/PC/unzip",
-          "segments": [],
-          "package_size": "30383244625"
-        },
-        "diffs": [
-          {
-            "name": "game_2.0.0_2.1.0_hdiff_KjPUTRqDO6ZWGeyp.zip",
-            "version": "2.0.0",
-            "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/game_2.0.0_2.1.0_hdiff_KjPUTRqDO6ZWGeyp.zip",
-            "size": "21976339270",
-            "md5": "E0B1FD73E543939C52A37BBEB6BF6AF8",
-            "is_recommended_update": false,
-            "voice_packs": [
-              {
-                "language": "zh-cn",
-                "name": "zh-cn_2.0.0_2.1.0_hdiff_tsNrHUifmELWAxn0.zip",
-                "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/zh-cn_2.0.0_2.1.0_hdiff_tsNrHUifmELWAxn0.zip",
-                "size": "905484101",
-                "md5": "E898F44B5DB766745A888F6532B685C6",
-                "package_size": "447279546"
-              },
-              {
-                "language": "zh-tw",
-                "name": "zh-tw_2.0.0_2.1.0_hdiff_K38ZCQnmXBjaDOgx.zip",
-                "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/zh-tw_2.0.0_2.1.0_hdiff_K38ZCQnmXBjaDOgx.zip",
-                "size": "905484101",
-                "md5": "2F28894AF6EA4361E95DFD690A475560",
-                "package_size": "447279546"
-              },
-              {
-                "language": "en-us",
-                "name": "en-us_2.0.0_2.1.0_hdiff_MK2tnjZE1xPb90Le.zip",
-                "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/en-us_2.0.0_2.1.0_hdiff_MK2tnjZE1xPb90Le.zip",
-                "size": "1131971927",
-                "md5": "05E8AD772743393D18E3F401CE2CC997",
-                "package_size": "560465617"
-              },
-              {
-                "language": "ja-jp",
-                "name": "ja-jp_2.0.0_2.1.0_hdiff_MaToxcp6VgdzW7sn.zip",
-                "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/ja-jp_2.0.0_2.1.0_hdiff_MaToxcp6VgdzW7sn.zip",
-                "size": "1137744737",
-                "md5": "2098CF31B700A0833C9D4DC7D90A192A",
-                "package_size": "563232799"
-              },
-              {
-                "language": "ko-kr",
-                "name": "ko-kr_2.0.0_2.1.0_hdiff_DOI64wNZX3rStxcE.zip",
-                "path": "https://autopatchcn.bhsr.com/client/hkrpg_cn/33/ko-kr_2.0.0_2.1.0_hdiff_DOI64wNZX3rStxcE.zip",
-                "size": "927131136",
-                "md5": "DDD199503CC53D93FFB0B137899BB84F",
-                "package_size": "458025287"
-              }
-            ],
-            "package_size": "10270622460"
-          }
-        ]
-      },
-      "plugin": {
-        "plugins": [
-          {
-            "name": "DXSETUP.zip",
-            "version": "",
-            "path": "https://autopatchcn.bhsr.com/client/DXSETUP.zip",
-            "size": "100647892",
-            "md5": "ca2ac3835d7d7da6cb8624fefb177083",
-            "entry": "",
-            "package_size": "0"
-          }
-        ],
-        "version": "1"
-      },
-      "web_url": "https://hkrpg.mihoyo.com/launcher",
-      "force_update": null,
-      "pre_download_game": {
-        "latest": {
-          "name": "",
           "version": "2.2.0",
           "path": "https://autopatchcn.bhsr.com/client/cn/20240425223452_X67JiqezhqpvBZW8/PC/StarRail_2.2.0.zip",
           "size": "67929687248",
@@ -1433,7 +1309,72 @@
           }
         ]
       },
+      "plugin": {
+        "plugins": [
+          {
+            "name": "DXSETUP.zip",
+            "version": "",
+            "path": "https://autopatchcn.bhsr.com/client/DXSETUP.zip",
+            "size": "100647892",
+            "md5": "ca2ac3835d7d7da6cb8624fefb177083",
+            "entry": "",
+            "package_size": "0"
+          }
+        ],
+        "version": "1"
+      },
+      "web_url": "https://hkrpg.mihoyo.com/launcher",
+      "force_update": null,
+      "pre_download_game": null,
       "deprecated_packages": [
+        {
+          "name": "game_2.0.0_2.1.0_hdiff_KjPUTRqDO6ZWGeyp.zip",
+          "md5": "E0B1FD73E543939C52A37BBEB6BF6AF8"
+        },
+        {
+          "name": "zh-cn_2.0.0_2.1.0_hdiff_tsNrHUifmELWAxn0.zip",
+          "md5": "E898F44B5DB766745A888F6532B685C6"
+        },
+        {
+          "name": "zh-tw_2.0.0_2.1.0_hdiff_K38ZCQnmXBjaDOgx.zip",
+          "md5": "2F28894AF6EA4361E95DFD690A475560"
+        },
+        {
+          "name": "en-us_2.0.0_2.1.0_hdiff_MK2tnjZE1xPb90Le.zip",
+          "md5": "05E8AD772743393D18E3F401CE2CC997"
+        },
+        {
+          "name": "ja-jp_2.0.0_2.1.0_hdiff_MaToxcp6VgdzW7sn.zip",
+          "md5": "2098CF31B700A0833C9D4DC7D90A192A"
+        },
+        {
+          "name": "ko-kr_2.0.0_2.1.0_hdiff_DOI64wNZX3rStxcE.zip",
+          "md5": "DDD199503CC53D93FFB0B137899BB84F"
+        },
+        {
+          "name": "StarRail_2.1.0.zip",
+          "md5": "bfdbb18fba9231d63e72e5808b6521d0"
+        },
+        {
+          "name": "Chinese.zip",
+          "md5": "5737ad765fa7b6eac8210ee4f2eeeb39"
+        },
+        {
+          "name": "Chinese.zip",
+          "md5": "5737ad765fa7b6eac8210ee4f2eeeb39"
+        },
+        {
+          "name": "English.zip",
+          "md5": "1f6a530b341f4b82f612fe6004b1bdbf"
+        },
+        {
+          "name": "Japanese.zip",
+          "md5": "f9b0c514915369f3b9155127684f8d51"
+        },
+        {
+          "name": "Korean.zip",
+          "md5": "5443d68b0a5adb03ab92c8fb4eb7df24"
+        },
         {
           "name": "game_1.6.0_2.0.0_hdiff_mT4gkop1jCKyVuD0.zip",
           "md5": "C23BD6852256B176B410BC71A1836015"
@@ -1565,10 +1506,6 @@
         {
           "name": "game_1.3.0_1.4.0_hdiff_cyokQi1nq6ZGtCUv.zip",
           "md5": "4E82618C30F028E6D88BFEA9BBE5EC58"
-        },
-        {
-          "name": "StarRail_1.4.0.zip",
-          "md5": "4d4073654720207497268308c2fba4f7"
         }
       ],
       "sdk": null,
@@ -1576,130 +1513,6 @@
     },
     "os": {
       "game": {
-        "latest": {
-          "name": "",
-          "version": "2.1.0",
-          "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/StarRail_2.1.0.zip",
-          "size": "60777551282",
-          "md5": "590dd649fd50f340a4e4bdac7f106956",
-          "entry": "StarRail.exe",
-          "voice_packs": [
-            {
-              "language": "zh-cn",
-              "name": "",
-              "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/Chinese.zip",
-              "size": "8133025100",
-              "md5": "5737ad765fa7b6eac8210ee4f2eeeb39",
-              "package_size": "4061269670"
-            },
-            {
-              "language": "zh-tw",
-              "name": "",
-              "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/Chinese.zip",
-              "size": "8133025100",
-              "md5": "5737ad765fa7b6eac8210ee4f2eeeb39",
-              "package_size": "4061269670"
-            },
-            {
-              "language": "en-us",
-              "name": "",
-              "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/English.zip",
-              "size": "9706233934",
-              "md5": "1f6a530b341f4b82f612fe6004b1bdbf",
-              "package_size": "4847874087"
-            },
-            {
-              "language": "ja-jp",
-              "name": "",
-              "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/Japanese.zip",
-              "size": "10386955160",
-              "md5": "f9b0c514915369f3b9155127684f8d51",
-              "package_size": "5188234700"
-            },
-            {
-              "language": "ko-kr",
-              "name": "",
-              "path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/Korean.zip",
-              "size": "8236153976",
-              "md5": "5443d68b0a5adb03ab92c8fb4eb7df24",
-              "package_size": "4112834108"
-            }
-          ],
-          "decompressed_path": "https://autopatchos.starrails.com/client/download/20240315112058_ccCKIhL7nSrowkqT/PC/unzip",
-          "segments": [],
-          "package_size": "30383532761"
-        },
-        "diffs": [
-          {
-            "name": "game_2.0.0_2.1.0_hdiff_KGdFk3qyvf4eYWCz.zip",
-            "version": "2.0.0",
-            "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/game_2.0.0_2.1.0_hdiff_KGdFk3qyvf4eYWCz.zip",
-            "size": "21977671980",
-            "md5": "EF3982BAE5693BAA472A377C00BEA683",
-            "is_recommended_update": false,
-            "voice_packs": [
-              {
-                "language": "zh-cn",
-                "name": "zh-cn_2.0.0_2.1.0_hdiff_eaKXmEoGYjADIQwP.zip",
-                "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/zh-cn_2.0.0_2.1.0_hdiff_eaKXmEoGYjADIQwP.zip",
-                "size": "905484101",
-                "md5": "BF20969DFF36380E940018A0F7AD84BD",
-                "package_size": "447279546"
-              },
-              {
-                "language": "zh-tw",
-                "name": "zh-tw_2.0.0_2.1.0_hdiff_oBEvD0mikIOdqMK8.zip",
-                "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/zh-tw_2.0.0_2.1.0_hdiff_oBEvD0mikIOdqMK8.zip",
-                "size": "905484101",
-                "md5": "CFB230C9CE95A53D010F462ABC95521E",
-                "package_size": "447279546"
-              },
-              {
-                "language": "en-us",
-                "name": "en-us_2.0.0_2.1.0_hdiff_H9An1j0dDBS4MXzZ.zip",
-                "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/en-us_2.0.0_2.1.0_hdiff_H9An1j0dDBS4MXzZ.zip",
-                "size": "1131971927",
-                "md5": "D981DCA5B2CA7CFA54E337A5C1E3ACCB",
-                "package_size": "560465617"
-              },
-              {
-                "language": "ja-jp",
-                "name": "ja-jp_2.0.0_2.1.0_hdiff_m4tcYvbVFShTAyKM.zip",
-                "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/ja-jp_2.0.0_2.1.0_hdiff_m4tcYvbVFShTAyKM.zip",
-                "size": "1137744737",
-                "md5": "A937B81A8B8A5289BD5BD5A2521F7F14",
-                "package_size": "563232799"
-              },
-              {
-                "language": "ko-kr",
-                "name": "ko-kr_2.0.0_2.1.0_hdiff_pzIKMLf3JkQiaUYt.zip",
-                "path": "https://autopatchos.starrails.com/client/hkrpg_global/35/ko-kr_2.0.0_2.1.0_hdiff_pzIKMLf3JkQiaUYt.zip",
-                "size": "927131136",
-                "md5": "BE68AED594138817B54F2CE4BEF25AF3",
-                "package_size": "458025287"
-              }
-            ],
-            "package_size": "10270929471"
-          }
-        ]
-      },
-      "plugin": {
-        "plugins": [
-          {
-            "name": "DXSETUP.zip",
-            "version": "",
-            "path": "https://autopatchos.starrails.com/client/DXSETUP.zip",
-            "size": "100647892",
-            "md5": "ca2ac3835d7d7da6cb8624fefb177083",
-            "entry": "",
-            "package_size": "0"
-          }
-        ],
-        "version": "1"
-      },
-      "web_url": "https://starrail.hoyoverse.com/launcher",
-      "force_update": null,
-      "pre_download_game": {
         "latest": {
           "name": "",
           "version": "2.2.0",
@@ -1807,7 +1620,72 @@
           }
         ]
       },
+      "plugin": {
+        "plugins": [
+          {
+            "name": "DXSETUP.zip",
+            "version": "",
+            "path": "https://autopatchos.starrails.com/client/DXSETUP.zip",
+            "size": "100647892",
+            "md5": "ca2ac3835d7d7da6cb8624fefb177083",
+            "entry": "",
+            "package_size": "0"
+          }
+        ],
+        "version": "1"
+      },
+      "web_url": "https://starrail.hoyoverse.com/launcher",
+      "force_update": null,
+      "pre_download_game": null,
       "deprecated_packages": [
+        {
+          "name": "game_2.0.0_2.1.0_hdiff_KGdFk3qyvf4eYWCz.zip",
+          "md5": "EF3982BAE5693BAA472A377C00BEA683"
+        },
+        {
+          "name": "zh-cn_2.0.0_2.1.0_hdiff_eaKXmEoGYjADIQwP.zip",
+          "md5": "BF20969DFF36380E940018A0F7AD84BD"
+        },
+        {
+          "name": "zh-tw_2.0.0_2.1.0_hdiff_oBEvD0mikIOdqMK8.zip",
+          "md5": "CFB230C9CE95A53D010F462ABC95521E"
+        },
+        {
+          "name": "en-us_2.0.0_2.1.0_hdiff_H9An1j0dDBS4MXzZ.zip",
+          "md5": "D981DCA5B2CA7CFA54E337A5C1E3ACCB"
+        },
+        {
+          "name": "ja-jp_2.0.0_2.1.0_hdiff_m4tcYvbVFShTAyKM.zip",
+          "md5": "A937B81A8B8A5289BD5BD5A2521F7F14"
+        },
+        {
+          "name": "ko-kr_2.0.0_2.1.0_hdiff_pzIKMLf3JkQiaUYt.zip",
+          "md5": "BE68AED594138817B54F2CE4BEF25AF3"
+        },
+        {
+          "name": "StarRail_2.1.0.zip",
+          "md5": "590dd649fd50f340a4e4bdac7f106956"
+        },
+        {
+          "name": "Chinese.zip",
+          "md5": "5737ad765fa7b6eac8210ee4f2eeeb39"
+        },
+        {
+          "name": "Chinese.zip",
+          "md5": "5737ad765fa7b6eac8210ee4f2eeeb39"
+        },
+        {
+          "name": "English.zip",
+          "md5": "1f6a530b341f4b82f612fe6004b1bdbf"
+        },
+        {
+          "name": "Japanese.zip",
+          "md5": "f9b0c514915369f3b9155127684f8d51"
+        },
+        {
+          "name": "Korean.zip",
+          "md5": "5443d68b0a5adb03ab92c8fb4eb7df24"
+        },
         {
           "name": "game_1.6.0_2.0.0_hdiff_xlnMFwQ893VOqgv4.zip",
           "md5": "6F85B5FE12620EF2187F3DBDA067D8F1"
@@ -1939,10 +1817,6 @@
         {
           "name": "game_1.3.0_1.4.0_hdiff_anBAclTh9gfx7Lu6.zip",
           "md5": "1C589A899F78EEFA656402186554A6F0"
-        },
-        {
-          "name": "StarRail_1.4.0.zip",
-          "md5": "7624c83a7f42807ee28f87b026cbba7d"
         }
       ],
       "sdk": null,
