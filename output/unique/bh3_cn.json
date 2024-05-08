@@ -2,24 +2,6 @@
   "game": {
     "latest": {
       "name": "",
-      "version": "7.4.0",
-      "path": "https://bundle.bh3.com/ptpublic/rel/20240325143924_D6bZkQP9zm8vNajM/PC/BH3_v7.4.0_52034be0b492.7z",
-      "size": "34694502132",
-      "md5": "e2c97f6e67646b9674fbb4646e16f64e",
-      "entry": "BH3.exe",
-      "voice_packs": [],
-      "decompressed_path": "https://bundle.bh3.com/ptpublic/rel/20240325143924_D6bZkQP9zm8vNajM/PC/extract",
-      "segments": [],
-      "package_size": "17342008186"
-    },
-    "diffs": []
-  },
-  "plugin": null,
-  "web_url": "https://www.bh3.com/launcher",
-  "force_update": null,
-  "pre_download_game": {
-    "latest": {
-      "name": "",
       "version": "7.5.0",
       "path": "https://bundle.bh3.com/ptpublic/rel/20240506104443_Eb7wY4fRoYiICW5J/PC/BH3_v7.5.0_c3433332d6a2.7z",
       "size": "35793577252",
@@ -32,7 +14,15 @@
     },
     "diffs": []
   },
+  "plugin": null,
+  "web_url": "https://www.bh3.com/launcher",
+  "force_update": null,
+  "pre_download_game": null,
   "deprecated_packages": [
+    {
+      "name": "BH3_v7.4.0_52034be0b492.7z",
+      "md5": "e2c97f6e67646b9674fbb4646e16f64e"
+    },
     {
       "name": "BH3_v7.3.0_971816bb764a.7z",
       "md5": "727629a89b875734b699d9f49d885b65"
