@@ -1,6 +1,5 @@
 const log4js = require('log4js');
 const color = require('ansi-colors');
-const clui = require('clui');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
@@ -24,12 +23,58 @@ console.log(`Logger started (level: ${logger.level})`);
 if (logger.level != 'TRACE') console.log(`Logs with levels less than '${logger.level}' are truncated`);
 logger.trace('Program has been started');
 
-const spinnerSeq = ["⠋","⠙","⠹","⠸","⠼","⠴","⠦","⠧","⠇","⠏"];
 const rootDirectory = path.resolve(path.join('.', 'output'));
 const apiConnectDelay = 0;
 const apiConnectTimeout = 20000;
-const apiDefinition = JSON.parse(atob('eyJnYW1lTGlzdCI6WyJiaDMiLCJoazRlIiwiaGtycGciLCJuYXAiXSwic2VydmVyTGlzdCI6eyJiaDMiOlsiY24iLCJqcCIsInR3Iiwia3IiLCJzZWEiLCJldSJdLCJoazRlIjpbImNuIiwib3MiXSwiaGtycGciOlsiY24iLCJvcyJdLCJuYXAiOlsib3MiXX0sImRlZmluaXRpb24iOnsiYmgzIjp7ImNuIjp7InVybCI6Imh0dHBzOi8vYmgzLWxhdW5jaGVyLXN0YXRpYy5taWhveW8uY29tL2JoM19jbi9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjQsImtleSI6IlN5dnVQbnFMIiwiZW5hYmxlZCI6dHJ1ZX0sImpwIjp7InVybCI6Imh0dHBzOi8vc2RrLW9zLXN0YXRpYy5ob3lvdmVyc2UuY29tL2JoM19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxOSwia2V5Ijoib2pldlowRXlJeVpOQ3k0biIsImVuYWJsZWQiOnRydWV9LCJ0dyI6eyJ1cmwiOiJodHRwczovL3Nkay1vcy1zdGF0aWMuaG95b3ZlcnNlLmNvbS9iaDNfZ2xvYmFsL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6OCwia2V5IjoiZGVtaFVUY1ciLCJlbmFibGVkIjp0cnVlfSwia3IiOnsidXJsIjoiaHR0cHM6Ly9zZGstb3Mtc3RhdGljLmhveW92ZXJzZS5jb20vYmgzX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjExLCJrZXkiOiJQUmc1NzFYaCIsImVuYWJsZWQiOnRydWV9LCJzZWEiOnsidXJsIjoiaHR0cHM6Ly9zZGstb3Mtc3RhdGljLmhveW92ZXJzZS5jb20vYmgzX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjksImtleSI6InRFR050VmhOIiwiZW5hYmxlZCI6dHJ1ZX0sImV1Ijp7InVybCI6Imh0dHBzOi8vc2RrLW9zLXN0YXRpYy5ob3lvdmVyc2UuY29tL2JoM19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxMCwia2V5IjoiZHB6NjV4SjMiLCJlbmFibGVkIjp0cnVlfX0sImhrNGUiOnsiY24iOnsidXJsIjoiaHR0cHM6Ly9zZGstc3RhdGljLm1paG95by5jb20vaGs0ZV9jbi9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjE4LCJrZXkiOiJlWWQ4OUptSiIsImVuYWJsZWQiOnRydWV9LCJvcyI6eyJ1cmwiOiJodHRwczovL3Nkay1vcy1zdGF0aWMuaG95b3ZlcnNlLmNvbS9oazRlX2dsb2JhbC9tZGsvbGF1bmNoZXIvYXBpL3Jlc291cmNlIiwiaWQiOjEwLCJrZXkiOiJnY1N0Z2FyaCIsImVuYWJsZWQiOnRydWV9LCJiZXRhX29zIjp7InVybCI6Imh0dHBzOi8vaGs0ZS1iZXRhLWxhdW5jaGVyLXN0YXRpYy5ob3lvdmVyc2UuY29tL2hrNGVfZ2xvYmFsL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6bnVsbCwia2V5IjpudWxsLCJlbmFibGVkIjpmYWxzZX19LCJoa3JwZyI6eyJjbiI6eyJ1cmwiOiJodHRwczovL2FwaS1sYXVuY2hlci5taWhveW8uY29tL2hrcnBnX2NuL21kay9sYXVuY2hlci9hcGkvcmVzb3VyY2UiLCJpZCI6MzMsImtleSI6IjZLY1Z1T2tiY3FqSm9taloiLCJlbmFibGVkIjp0cnVlfSwib3MiOnsidXJsIjoiaHR0cHM6Ly9oa3JwZy1sYXVuY2hlci1zdGF0aWMuaG95b3ZlcnNlLmNvbS9oa3JwZ19nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjozNSwia2V5IjoidnBsT1ZYOFZuN2N3Rzh5YiIsImVuYWJsZWQiOnRydWV9fSwibmFwIjp7Im9zIjp7InVybCI6Imh0dHBzOi8vbmFwLWxhdW5jaGVyLXN0YXRpYy5ob3lvdmVyc2UuY29tL25hcF9nbG9iYWwvbWRrL2xhdW5jaGVyL2FwaS9yZXNvdXJjZSIsImlkIjoxMSwia2V5IjoiU3hLT2dsclVzSkZ4cUU0SSIsImVuYWJsZWQiOnRydWV9fX19'));
-const namePrettyDefinition = JSON.parse(atob('eyJnYW1lTmFtZSI6eyJiaDMiOiJIb25rYWkgSW1wYWN0IDNyZCIsImhrNGUiOiJHZW5zaGluIEltcGFjdCIsImhrcnBnIjoiSG9ua2FpOiBTdGFyIFJhaWwiLCJuYXAiOiJaZW5sZXNzIFpvbmUgWmVybyJ9LCJzZXJ2ZXJOYW1lIjp7ImNuIjoiQ04gKENoaW5hKSIsImNuX2JpbGliaWxpIjoiQ04gQmlsaUJpbGkgKENoaW5hKSIsIm9zIjoiR2xvYmFsIChPdmVyc2VhcykiLCJqcCI6IkpQIChKYXBhbikiLCJ0dyI6IlRXL0hLL01PIChUcmFkaXRpb25hbCBDaGluZXNlKSIsImtyIjoiS1IgKEtvcmVhKSIsInNlYSI6IlNFQSAoU291dGhlYXN0IEFzaWEpIiwiZXUiOiJHbG9iYWwgKEV1cm9wZSAvIEFtZXJpY2EpIn19'));
+const apiDefinition = {
+  'gameList': ['bh3', 'hk4e', 'hkrpg', 'nap'],
+  'serverList': {
+    'bh3': ['cn', 'jp', 'tw', 'kr', 'sea', 'eu'],
+    'hk4e': ['cn', 'os'],
+    'hkrpg': ['cn', 'os'],
+    'nap': ['os']
+  },
+  'definition': {
+    'bh3': {
+      'cn': {'url': 'https://bh3-launcher-static.mihoyo.com/bh3_cn/mdk/launcher/api/resource', 'id': 4, 'key': 'SyvuPnqL', 'enabled': true},
+      'jp': {'url': 'https://sdk-os-static.hoyoverse.com/bh3_global/mdk/launcher/api/resource', 'id': 19, 'key': 'ojevZ0EyIyZNCy4n', 'enabled': true},
+      'tw': {'url': 'https://sdk-os-static.hoyoverse.com/bh3_global/mdk/launcher/api/resource', 'id': 8, 'key': 'demhUTcW', 'enabled': true},
+      'kr': {'url': 'https://sdk-os-static.hoyoverse.com/bh3_global/mdk/launcher/api/resource', 'id': 11, 'key': 'PRg571Xh', 'enabled': true},
+      'sea': {'url': 'https://sdk-os-static.hoyoverse.com/bh3_global/mdk/launcher/api/resource', 'id': 9, 'key': 'tEGNtVhN', 'enabled': true},
+      'eu': {'url': 'https://sdk-os-static.hoyoverse.com/bh3_global/mdk/launcher/api/resource', 'id': 10, 'key': 'dpz65xJ3', 'enabled': true}
+    },
+    'hk4e': {
+      'cn': {'url': 'https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource', 'id': 18, 'key': 'eYd89JmJ', 'enabled': true},
+      'os': {'url': 'https://sdk-os-static.hoyoverse.com/hk4e_global/mdk/launcher/api/resource', 'id': 10, 'key': 'gcStgarh', 'enabled': true},
+      'beta_os': {'url': 'https://hk4e-beta-launcher-static.hoyoverse.com/hk4e_global/mdk/launcher/api/resource', 'id': null, 'key': null, 'enabled': false}
+    },
+    'hkrpg': {
+      'cn': {'url': 'https://api-launcher.mihoyo.com/hkrpg_cn/mdk/launcher/api/resource', 'id': 33, 'key': '6KcVuOkbcqjJomjZ', 'enabled': true},
+      'os': {'url': 'https://hkrpg-launcher-static.hoyoverse.com/hkrpg_global/mdk/launcher/api/resource', 'id': 35, 'key': 'vplOVX8Vn7cwG8yb', 'enabled': true}
+    },
+    'nap': {
+      'os': {'url': 'https://nap-launcher-static.hoyoverse.com/nap_global/mdk/launcher/api/resource', 'id': 11, 'key': 'SxKOglrUsJFxqE4I', 'enabled': true}
+    }
+  }
+};
+const namePrettyDefinition = {
+  'gameName': {
+    'bh3': 'Honkai Impact 3rd',
+    'hk4e': 'Genshin Impact',
+    'hkrpg': 'Honkai: Star Rail',
+    'nap': 'Zenless Zone Zero'
+  },
+  'serverName': {
+    'cn': 'CN (China)',
+    'cn_bilibili': 'CN BiliBili (China)',
+    'os': 'Global (Overseas)',
+    'jp': 'JP (Japan)',
+    'tw': 'TW/HK/MO (Traditional Chinese)',
+    'kr': 'KR (Korea)',
+    'sea': 'SEA (Southeast Asia)',
+    'eu': 'Global (Europe / America)'
+  }
+};
 
 async function main () {
   logger.trace(`Running apiConnectRunner ...`);
@@ -104,10 +149,8 @@ async function apiConnectRunner () {
     logger.trace(`Delaying connect ...`)
     if (apiConnectDelay !== null) await new Promise(resolve => setTimeout(resolve, apiConnectDelay));
     logger.trace(`Requesting ${definition.url.replace(/https:\/\/|\/mdk\/launcher\/api\/resource/g, '')} ...`);
-    let spinner = new clui.Spinner (`Requesting ${definition.url.replace(/https:\/\/|\/mdk\/launcher\/api\/resource/g, '')} ...`, spinnerSeq);
-    spinner.start();
     try {
-      const resData = await apiConnect(`${definition.url}`, definition.id, definition.key, spinner);
+      const resData = await apiConnect(`${definition.url}`, definition.id, definition.key);
       if (resData) {
         responseDispList.push({
           'game': namePrettyDefinition["gameName"][definition.gameName],
@@ -146,7 +189,7 @@ async function apiConnectRunner () {
   }
 }
 
-async function apiConnect (url, id, key, spinner) {
+async function apiConnect (url, id, key) {
   let connectionTimer = process.hrtime();
   try {
     const response = await axios({
@@ -163,12 +206,10 @@ async function apiConnect (url, id, key, spinner) {
       'timeout': apiConnectTimeout,
     });
     let connectionTimeResult = process.hrtime(connectionTimer);
-    spinner.stop();
     logger.trace(`API connection time: ${(connectionTimeResult[0] * 1e9 + connectionTimeResult[1]) / 1e6} ms`);
     return response.data;
   } catch (error) {
     let connectionTimeResult = process.hrtime(connectionTimer);
-    spinner.stop();
     logger.trace(`API connection time: ${(connectionTimeResult[0] * 1e9 + connectionTimeResult[1]) / 1e6} ms`);
     logger.error(`API request failed: ${error.code}`);
     // console.error(error);
