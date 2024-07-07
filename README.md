@@ -8,7 +8,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Genshin Impact - Global
 
-Game version: <span style="font-size: 150%;">4.7.0</span>
+Game version: **4.7.0**
 
 ### Full Package
 
@@ -50,7 +50,7 @@ Game version: <span style="font-size: 150%;">4.7.0</span>
 
 ## Honkai: Star Rail - Global
 
-Game version: <span style="font-size: 150%;">2.3.0</span>
+Game version: **2.3.0**
 
 ### Full Package
 
@@ -81,7 +81,7 @@ Game version: <span style="font-size: 150%;">2.3.0</span>
 
 ## Zenless Zone Zero - Global
 
-Game version: <span style="font-size: 150%;">1.0.1</span>
+Game version: **1.0.1**
 
 ### Full Package
 
@@ -106,7 +106,7 @@ Game version: <span style="font-size: 150%;">1.0.1</span>
 
 ## Honkai Impact 3rd - China
 
-Game version: <span style="font-size: 150%;">7.6.0</span>
+Game version: **7.6.0**
 
 ### Full Package
 
@@ -116,7 +116,7 @@ Game version: <span style="font-size: 150%;">7.6.0</span>
 
 ## Genshin Impact - China
 
-Game version: <span style="font-size: 150%;">4.7.0</span>
+Game version: **4.7.0**
 
 ### Full Package
 
@@ -158,7 +158,7 @@ Game version: <span style="font-size: 150%;">4.7.0</span>
 
 ## Honkai: Star Rail - China
 
-Game version: <span style="font-size: 150%;">2.3.0</span>
+Game version: **2.3.0**
 
 ### Full Package
 
@@ -189,7 +189,7 @@ Game version: <span style="font-size: 150%;">2.3.0</span>
 
 ## Zenless Zone Zero - China
 
-Game version: <span style="font-size: 150%;">1.0.0</span>
+Game version: **1.0.0**
 
 ### Full Package
 
