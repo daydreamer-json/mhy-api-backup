@@ -8,7 +8,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Genshin Impact - Global
 
-Game version: **4.7.0**
+<img src="https://img.shields.io/badge/Game_version-4.7.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -50,7 +50,7 @@ Game version: **4.7.0**
 
 ## Honkai: Star Rail - Global
 
-Game version: **2.3.0**
+<img src="https://img.shields.io/badge/Game_version-2.3.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -81,7 +81,7 @@ Game version: **2.3.0**
 
 ## Zenless Zone Zero - Global
 
-Game version: **1.0.1**
+<img src="https://img.shields.io/badge/Game_version-1.0.1-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -106,7 +106,7 @@ Game version: **1.0.1**
 
 ## Honkai Impact 3rd - China
 
-Game version: **7.6.0**
+<img src="https://img.shields.io/badge/Game_version-7.6.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -116,7 +116,7 @@ Game version: **7.6.0**
 
 ## Genshin Impact - China
 
-Game version: **4.7.0**
+<img src="https://img.shields.io/badge/Game_version-4.7.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -158,7 +158,7 @@ Game version: **4.7.0**
 
 ## Honkai: Star Rail - China
 
-Game version: **2.3.0**
+<img src="https://img.shields.io/badge/Game_version-2.3.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
@@ -189,7 +189,7 @@ Game version: **2.3.0**
 
 ## Zenless Zone Zero - China
 
-Game version: **1.0.0**
+<img src="https://img.shields.io/badge/Game_version-1.0.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
 
