@@ -1,5 +1,10 @@
 name: Check update
 
+permissions:
+  actions: write
+  checks: write
+  contents: write
+
 on:
   workflow_dispatch: # Event when workflow run manually
 
