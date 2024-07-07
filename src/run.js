@@ -236,10 +236,12 @@ async function fileManageDiffVerifier (apiResponseObj, loadedObj, notExistsFileA
     } else {
       needWriteFlagObj.master = true;
       needWriteFlagCount += 1;
+      logger.info(`Detected remote update of ${path.relative(path.resolve(process.cwd()), path.join(rootDirectory, 'master.json'))}`);
     }
   } else {
     needWriteFlagObj.master = true;
     needWriteFlagCount += 1;
+    logger.info(`Detected remote update of ${path.relative(path.resolve(process.cwd()), path.join(rootDirectory, 'master.json'))}`);
   }
   apiDefinition.gameList.forEach((gameNameKey) => {
     needWriteFlagObj[gameNameKey] = {};
@@ -250,10 +252,12 @@ async function fileManageDiffVerifier (apiResponseObj, loadedObj, notExistsFileA
         } else {
           needWriteFlagObj[gameNameKey][serverNameKey] = true;
           needWriteFlagCount += 1;
+          logger.info(`Detected remote update of ${path.relative(path.resolve(process.cwd()), path.join(rootDirectory, 'unique', `${gameNameKey}_${serverNameKey}.json`))}`);
         }
       } else {
         needWriteFlagObj[gameNameKey][serverNameKey] = true;
         needWriteFlagCount += 1;
+        logger.info(`Detected remote update of ${path.relative(path.resolve(process.cwd()), path.join(rootDirectory, 'unique', `${gameNameKey}_${serverNameKey}.json`))}`);
       }
     })
   })
