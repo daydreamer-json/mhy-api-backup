@@ -36,7 +36,7 @@ function generateMdText (apiMasterData) {
       const gameServerName = gameObj.game.biz.match(new RegExp('([a-z0-9]*)_([a-z0-9]*)'))[2];
       if (Object.keys(namePrettyDefinition.gameName).includes(gameCodeName) === true && Object.keys(namePrettyDefinition.serverName).includes(gameServerName) === true) {
         outputTextArray.push(`## ${namePrettyDefinition.gameName[gameCodeName]} - ${namePrettyDefinition.serverName[gameServerName]}\n`);
-        outputTextArray.push(`Game version: **${gameObj.main.major.version}**\n`);
+        outputTextArray.push(`<img src="https://img.shields.io/badge/Game_version-${gameObj.main.major.version}-033dfc?style=flat-square" height="31"/>\n`);
         if (gameObj.main.major['game_pkgs'].length > 0) {
           outputTextArray.push(`### Full Package\n`);
           outputTextArray.push(`|Link|Size|MD5|`);
@@ -85,7 +85,7 @@ function generateMdText (apiMasterData) {
         }
         if (gameObj['pre_download'] !== null && gameObj['pre_download'].major !== null) {
           outputTextArray.push(`### Pre-download Package\n`);
-          outputTextArray.push(`Pre-download version: **${gameObj['pre_download'].major.version}**\n`);
+          outputTextArray.push(`<img src="https://img.shields.io/badge/Pre--download_version-${gameObj['pre_download'].major.version}-033dfc?style=flat-square" height="31"/>\n`);
           if (gameObj['pre_download'].major['game_pkgs'].length > 0) {
             outputTextArray.push(`#### Full Package\n`);
             outputTextArray.push(`|Link|Size|MD5|`);
