@@ -24,12 +24,12 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm i
-      - name: Run old script
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          max_attempts: 5
-          command: node src/run.js
+      # - name: Run old script
+      #   uses: nick-fields/retry@v3
+      #   with:
+      #     timeout_minutes: 5
+      #     max_attempts: 5
+      #     command: node src/run.js
       - name: Run HoYoPlay script
         uses: nick-fields/retry@v3
         with:
