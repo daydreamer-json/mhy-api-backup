@@ -7,76 +7,6 @@
       },
       "main": {
         "major": {
-          "version": "1.0.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.001",
-              "md5": "A5ED96B4DC2AD834F9D1A8D8906E7DAD",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.002",
-              "md5": "4E3ADFB4153D77A333DA4D1526F7A9AA",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.003",
-              "md5": "CA8D2486480BFC7B7ACCBE0C1E83A577",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.004",
-              "md5": "418789DD6350B4E9D9EF4BDEB8BBB256",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.005",
-              "md5": "E3ED735C36BDF4E0A4A2232CEB5D5380",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.006",
-              "md5": "8ABE0F5627715BE97F1BCE568E1E887C",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.007",
-              "md5": "8EE987C36446474B58C1631C946A524B",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.008",
-              "md5": "5362613069CCE8C65D27BD61EE242C6F",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.009",
-              "md5": "A58C80D57D63440C395FEC13547B4F85",
-              "size": "5384437760",
-              "decompressed_size": "11845763073"
-            },
-            {
-              "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.010",
-              "md5": "CD43538CC26893F654EB687BEF510DA1",
-              "size": "5375110635",
-              "decompressed_size": "11825243398"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": ""
-        },
-        "patches": []
-      },
-      "pre_download": {
-        "major": {
           "version": "1.1.0",
           "game_pkgs": [
             {
@@ -216,6 +146,10 @@
             "res_list_url": ""
           }
         ]
+      },
+      "pre_download": {
+        "major": null,
+        "patches": []
       }
     },
     {

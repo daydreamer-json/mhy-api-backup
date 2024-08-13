@@ -81,34 +81,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Zenless Zone Zero - Global
 
-<img src="https://img.shields.io/badge/Game_version-1.0.1-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-1.1.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.001)|5.01 GiB|`5558937046e6ea64179439a689df7ec0`|
-|[Part 2](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.002)|5.01 GiB|`9c64c837f96e12ea12dcd9baa8e6e973`|
-|[Part 3](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.003)|5.01 GiB|`13dfda6d40720111049feb6570a99583`|
-|[Part 4](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.004)|5.01 GiB|`5fdf830e3ac83e3feafb7601c5ff8c37`|
-|[Part 5](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.005)|5.01 GiB|`19c7eaaa25ee82392acee8a69b6e075e`|
-|[Part 6](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.006)|5.01 GiB|`9411710721d6afeaa5da6e465a7e33e1`|
-|[Part 7](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.007)|5.01 GiB|`039aa41ba6a101ef089f899a20b21c10`|
-|[Part 8](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.008)|5.01 GiB|`f742a3a723ffe6a5d41e16dbaf26e1b8`|
-|[Part 9](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.009)|5.01 GiB|`3d826023a019ec8850b30be13c7220a8`|
-|[Part 10](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240705172854_AtlPxrNABnzrUyln/volumezip/ZenlessZoneZero_1.0.0_V_v2.zip.010)|5.01 GiB|`f0242e1814367c131d44aa38fb2a2ef1`|
-
-### Update Diff Package
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|1.0.0|[Game](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.0.0_1.0.1_diff_YzQyHCCajeQGxVEl.zip)|375.31 MiB|`6c1d441f01b9134c1bd6269057a099fa`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-1.1.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -123,7 +98,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 9](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240803155052_sLuZ7jKzX1U3OMad/VolumeZip/ZenlessZoneZero_1.1.0_AS.zip.009)|5.11 GiB|`c7a5e664c1f659790d0b3977637ab7df`|
 |[Part 10](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240803155052_sLuZ7jKzX1U3OMad/VolumeZip/ZenlessZoneZero_1.1.0_AS.zip.010)|5.1 GiB|`e2fdebce0f5226f42c16182a4d5ecb3c`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -132,7 +107,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Korean (South Korea)](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240803155052_sLuZ7jKzX1U3OMad/audio_zip_Kr.zip)|783.95 MiB|`5c64997492f3a300b205a26161f535dc`|
 |[Japanese (Japan)](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20240803155052_sLuZ7jKzX1U3OMad/audio_zip_Jp.zip)|867.33 MiB|`5c9cbad075d05177c77da2274620b575`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
@@ -227,28 +202,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Zenless Zone Zero - China
 
-<img src="https://img.shields.io/badge/Game_version-1.0.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-1.1.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.001)|5.01 GiB|`a5ed96b4dc2ad834f9d1a8d8906e7dad`|
-|[Part 2](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.002)|5.01 GiB|`4e3adfb4153d77a333da4d1526f7a9aa`|
-|[Part 3](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.003)|5.01 GiB|`ca8d2486480bfc7b7accbe0c1e83a577`|
-|[Part 4](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.004)|5.01 GiB|`418789dd6350b4e9d9ef4bdeb8bbb256`|
-|[Part 5](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.005)|5.01 GiB|`e3ed735c36bdf4e0a4a2232ceb5d5380`|
-|[Part 6](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.006)|5.01 GiB|`8abe0f5627715be97f1bce568e1e887c`|
-|[Part 7](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.007)|5.01 GiB|`8ee987c36446474b58c1631c946a524b`|
-|[Part 8](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.008)|5.01 GiB|`5362613069cce8c65d27bd61ee242c6f`|
-|[Part 9](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.009)|5.01 GiB|`a58c80d57d63440c395fec13547b4f85`|
-|[Part 10](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240621120814_y330JPdP7xg1l7FT/volumezip/juequling_1.0.0_V.zip.010)|5.01 GiB|`cd43538cc26893f654eb687bef510da1`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-1.1.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -263,7 +219,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 9](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240803104442_i7J23NSBHLbi1OrV/VolumeZip/juequling_1.1.0_AS.zip.009)|5.11 GiB|`7b4eaabc25f448b58d1cd3e7c766b445`|
 |[Part 10](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240803104442_i7J23NSBHLbi1OrV/VolumeZip/juequling_1.1.0_AS.zip.010)|5.1 GiB|`5a3c5b12decf85c9410c8620b9225190`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -272,7 +228,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Korean (South Korea)](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240803104442_i7J23NSBHLbi1OrV/audio_zip_Kr.zip)|783.95 MiB|`ed66b12a688e9b3d852af565adbbe084`|
 |[Japanese (Japan)](https://autopatchcn.juequling.com/package_download/op/client_app/download/20240803104442_i7J23NSBHLbi1OrV/audio_zip_Jp.zip)|867.33 MiB|`d42bc7e340ba43a470d38fa69d8d9800`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
