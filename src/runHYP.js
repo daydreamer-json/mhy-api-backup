@@ -51,7 +51,7 @@ const namePrettyDefinition = {
 const discordWebhookUrlArrayEncrypted = [
   {
     iv: 'e0706f6c81ba0d2ca9bbb2bb06760be7',
-    encryptedData: 'da769c3da3d0e5178525ab74f60b7405c8f7d98b3979ff69f8878fa5689f2d92efd7a2192bd4cd1842405bcba9bbd30cdfe3676959b01990875d3de0a31f2dfd8f915f2760028167e169444ce4f36284b912cfed0c61459a62528400213451f67b14774baafdfcf6c03bbf8de9503bf03c14767d610cd980fe8b544fc63de6e5'
+    encryptedData: '2nacPaPQ5ReFJat09gt0Bcj32Ys5ef9p+IePpWifLZLv16IZK9TNGEJAW8upu9MM3+NnaVmwGZCHXT3gox8t/Y+RXydgAoFn4WlETOTzYoS5Es/tDGFFmmJShAAhNFH2exR3S6r9/PbAO7+N6VA78DwUdn1hDNmA/otUT8Y95uU='
   }
 ];
 
@@ -412,8 +412,8 @@ const aes256cbcCipher = {
     const key = await util.promisify(crypto.scrypt)(password, 'salt', 32);
     const iv = crypto.randomBytes(16);
     const cipher = crypto.createCipheriv(algorithm, key, iv);
-    let encrypted = cipher.update(text, 'utf8', 'hex');
-    encrypted += cipher.final('hex');
+    let encrypted = cipher.update(text, 'utf8', 'base64');
+    encrypted += cipher.final('base64');
     return { iv: iv.toString('hex'), encryptedData: encrypted };
   }),
   decrypt: (async (encryptedObj, password) => {
@@ -421,7 +421,7 @@ const aes256cbcCipher = {
     const key = await util.promisify(crypto.scrypt)(password, 'salt', 32);
     const iv = Buffer.from(encryptedObj.iv, 'hex');
     const decipher = crypto.createDecipheriv(algorithm, key, iv);
-    let decrypted = decipher.update(encryptedObj.encryptedData, 'hex', 'utf8');
+    let decrypted = decipher.update(encryptedObj.encryptedData, 'base64', 'utf8');
     decrypted += decipher.final('utf8');
     return decrypted;
   })
