@@ -126,19 +126,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Honkai Impact 3rd - China
 
-<img src="https://img.shields.io/badge/Game_version-7.7.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-7.8.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Game](https://autopatchcn.bh3.com/ptpublic/rel/20240805104059_mJaMrTOz6gCYOVBW/PC/BH3_v7.7.0_5eeabb6f3d34.7z)|18.17 GiB|`c818d3c6f86207ce0da1bbefc2a6ab27`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-7.8.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
