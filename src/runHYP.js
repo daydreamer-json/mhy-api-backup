@@ -50,8 +50,12 @@ const namePrettyDefinition = {
 };
 const discordWebhookUrlArrayEncrypted = [
   {
-    iv: 'e0706f6c81ba0d2ca9bbb2bb06760be7',
-    encryptedData: '2nacPaPQ5ReFJat09gt0Bcj32Ys5ef9p+IePpWifLZLv16IZK9TNGEJAW8upu9MM3+NnaVmwGZCHXT3gox8t/Y+RXydgAoFn4WlETOTzYoS5Es/tDGFFmmJShAAhNFH2exR3S6r9/PbAO7+N6VA78DwUdn1hDNmA/otUT8Y95uU='
+    iv: '81c708815248b8101dc0a06c16bf9a22',
+    encryptedData: 'N2wpsPWuHRrUNJ78zHso4YKbCPRMKkA+P/3blNIC5hFGnf59HclKAnAqbSykkcoC7Wh7Rs+gpJUslBX5/++JdQV0YatiTGSKG1KCw0yUQbENLulIxASZFDkM9OrVONuTDfQ0RZEIRhJEbuK0uWBA12d+SRiP6y3Q74REKYfvbkQ='
+  },
+  {
+    iv: 'e1e47667b38f0a0f29d14578d6e855f8',
+    encryptedData: 'MnW9Np6QLemgSKVTC7RSZIjRJBKtdYBS/LE+tTHbIWJMUQexyOrNQ9p0h6uya7LK4Nl3ihrZe8CgRqrTgh6Mct+d3N7rOTwYGwNSMivdkR3cbBEFu6VcGsRcHi2rrTYTIF/tRDKjpkml/CZr0cjdkOnGYM3sMmg40l/RPk72qUk='
   }
 ];
 
