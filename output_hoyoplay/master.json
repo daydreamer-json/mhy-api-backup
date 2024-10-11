@@ -518,6 +518,29 @@
           "major": null,
           "patches": []
         }
+      },
+      {
+        "game": {
+          "id": "5TIVvvcwtM",
+          "biz": "bh3_global"
+        },
+        "main": {
+          "major": {
+            "version": "7.8.0",
+            "game_pkgs": [
+              {
+                "url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241009182513_BZHfnylEXeAq2hDU/BH3_v7.8.0_59f13f76488e.7z",
+                "md5": "51ec434da195be462e9c66f0c4b4645e",
+                "size": "20376878031",
+                "decompressed_size": "40764241822"
+              }
+            ],
+            "audio_pkgs": [],
+            "res_list_url": ""
+          },
+          "patches": []
+        },
+        "pre_download": null
       }
     ]
   },
