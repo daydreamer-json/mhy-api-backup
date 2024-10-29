@@ -540,7 +540,19 @@
         "patches": []
       },
       "pre_download": {
-        "major": null,
+        "major": {
+          "version": "7.9.0",
+          "game_pkgs": [
+            {
+              "url": "https://autopatchcn.bh3.com/ptpublic/rel/20241025151816_Y1hlFtfrB4sR5Scd/PC/BH3_v7.9.0_37db88484689.7z",
+              "md5": "a8596e0d7b4c1378587ca7818e1dce35",
+              "size": "20610529816",
+              "decompressed_size": "41231545392"
+            }
+          ],
+          "audio_pkgs": [],
+          "res_list_url": "https://autopatchcn.bh3.com/ptpublic/rel/20241025151816_Y1hlFtfrB4sR5Scd/PC/extract"
+        },
         "patches": []
       }
     }
