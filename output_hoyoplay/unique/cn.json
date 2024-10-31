@@ -525,19 +525,33 @@
       },
       "main": {
         "major": {
-          "version": "7.9.0",
+          "version": "7.9.1",
           "game_pkgs": [
             {
-              "url": "https://autopatchcn.bh3.com/ptpublic/rel/20241025151816_Y1hlFtfrB4sR5Scd/PC/BH3_v7.9.0_37db88484689.7z",
-              "md5": "a8596e0d7b4c1378587ca7818e1dce35",
-              "size": "20610529816",
-              "decompressed_size": "41231545392"
+              "url": "https://autopatchcn.bh3.com/ptpublic/rel/20241031142146_Q5Xm5aZOG1hPyJZW/PC/BH3_v7.9.0_37db88484689_m.7z",
+              "md5": "7c8ce62b48ecdd54c61c5e140f04e008",
+              "size": "20467806960",
+              "decompressed_size": "40946099680"
             }
           ],
           "audio_pkgs": [],
-          "res_list_url": "https://autopatchcn.bh3.com/ptpublic/rel/20241025151816_Y1hlFtfrB4sR5Scd/PC/extract"
+          "res_list_url": "https://autopatchcn.bh3.com/ptpublic/rel/20241031142146_Q5Xm5aZOG1hPyJZW/PC/extract"
         },
-        "patches": []
+        "patches": [
+          {
+            "version": "7.9.0",
+            "game_pkgs": [
+              {
+                "url": "https://autopatchcn.bh3.com/tmp/pc_client/product/update/bh3_cn/game_7.9.0_7.9.1_diff_eKgosBseIgDxwyKn.7z",
+                "md5": "f56c5c15375b5c08ab4af93a2b0276a3",
+                "size": "9989",
+                "decompressed_size": "10624676"
+              }
+            ],
+            "audio_pkgs": [],
+            "res_list_url": ""
+          }
+        ]
       },
       "pre_download": {
         "major": null,
