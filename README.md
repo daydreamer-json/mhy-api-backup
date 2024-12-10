@@ -198,6 +198,16 @@ The old launcher is no longer supported and the API used until now has stopped b
 |---|---|---|---|
 |7.9.0|[Game](https://autopatchcn.bh3.com/tmp/pc_client/product/update/bh3_cn/game_7.9.0_7.9.1_diff_eKgosBseIgDxwyKn.7z)|9.75 KiB|`f56c5c15375b5c08ab4af93a2b0276a3`|
 
+### Pre-download Package
+
+<img src="https://img.shields.io/badge/Pre--download_version-8.0.0-033dfc?style=flat-square" height="31"/>
+
+#### Full Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Game](https://autopatchcn.bh3.com/ptpublic/rel/20241208070032_L5tMaxvchIF0LKZg/PC/BH3_v8.0.0_3606071aed85.7z)|19.68 GiB|`abe19df4dc97434f6291053b967903d5`|
+
 ## Genshin Impact - China
 
 <img src="https://img.shields.io/badge/Game_version-5.2.0-033dfc?style=flat-square" height="31"/>
