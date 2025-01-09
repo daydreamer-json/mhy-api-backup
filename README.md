@@ -48,19 +48,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Honkai Impact 3rd - Global
 
-<img src="https://img.shields.io/badge/Game_version-7.9.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-8.0.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Game](https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20241120175234_O49tRSFZZGO2ZnQi/BH3_v7.9.0_eba228e1d6a9.7z)|19.64 GiB|`9b58d1756fdc7bc2b06a02b86915ec45`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-8.0.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
