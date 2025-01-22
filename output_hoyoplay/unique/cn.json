@@ -543,22 +543,6 @@
       },
       "main": {
         "major": {
-          "version": "8.0.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchcn.bh3.com/ptpublic/rel/20241208070032_L5tMaxvchIF0LKZg/PC/BH3_v8.0.0_3606071aed85.7z",
-              "md5": "abe19df4dc97434f6291053b967903d5",
-              "size": "21132460087",
-              "decompressed_size": "42275405934"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchcn.bh3.com/ptpublic/rel/20241208070032_L5tMaxvchIF0LKZg/PC/extract"
-        },
-        "patches": []
-      },
-      "pre_download": {
-        "major": {
           "version": "8.1.0",
           "game_pkgs": [
             {
@@ -571,6 +555,10 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchcn.bh3.com/ptpublic/rel/20250120104717_JKPilwZ9G9BSw6JF/PC/extract"
         },
+        "patches": []
+      },
+      "pre_download": {
+        "major": null,
         "patches": []
       }
     }
