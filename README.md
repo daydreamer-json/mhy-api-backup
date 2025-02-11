@@ -58,53 +58,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Genshin Impact - Global
 
-<img src="https://img.shields.io/badge/Game_version-5.3.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-5.4.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.001)|10 GiB|`d7ea7d49334e03e590db3f047cd9ea88`|
-|[Part 2](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.002)|10 GiB|`b4178034c1d09e889e43fd76b3fb4d3c`|
-|[Part 3](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.003)|10 GiB|`43b70975fcb957abaaaf7d940969679a`|
-|[Part 4](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.004)|10 GiB|`d734b1edeb1b2b0d47d4d4bab7af6778`|
-|[Part 5](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.005)|10 GiB|`95abe987ff924c21f3e5085492448760`|
-|[Part 6](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.006)|10 GiB|`492510ae74ae8ac696ee59b4e831d039`|
-|[Part 7](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.007)|10 GiB|`0c68334b33ee878c5beac321339b9447`|
-|[Part 8](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.008)|973.4 MiB|`18d44596a5f1467682f5e038c80bd92a`|
-
-### Audio Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Chinese (China)](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Chinese_5.3.0.zip)|14.2 GiB|`2727087a20d630d35efe804ae683e72e`|
-|[American English](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_English(US)_5.3.0.zip)|16.24 GiB|`76f338d1925ff39cbf73f0418e9ae354`|
-|[Korean (South Korea)](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Korean_5.3.0.zip)|14 GiB|`6356a494c7cce397bdbb1213aa6e7298`|
-|[Japanese (Japan)](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Japanese_5.3.0.zip)|18.44 GiB|`f2b1c1f217dafbcdf27aeece987256b7`|
-
-### Update Diff Package
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|5.2.0|[Game](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.2.0_5.3.0_hdiff_cixFUHQZyAJuOKIN.zip)|17.17 GiB|`46b32c38dbb348a172df8352074da5a1`|
-|5.2.0|[Audio - Korean (South Korea)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ko-kr_5.2.0_5.3.0_hdiff_oyddjWZZfxEwaTYM.zip)|703.04 MiB|`fcee09acf85cdd2dd1d30bdea69c9065`|
-|5.2.0|[Audio - American English](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_en-us_5.2.0_5.3.0_hdiff_kFXfWOqklZrcycKa.zip)|665.68 MiB|`c7189fa380b90a343cc56b7d8438eaba`|
-|5.2.0|[Audio - Japanese (Japan)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ja-jp_5.2.0_5.3.0_hdiff_mqXJGZjryItulRRx.zip)|803.66 MiB|`68146dc2e2ea63b0cae452ea01b23136`|
-|5.2.0|[Audio - Chinese (China)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_zh-cn_5.2.0_5.3.0_hdiff_zFnGPPbohnwLAFxC.zip)|661.34 MiB|`3b4f264bd791b5f81eb165fe6d36676e`|
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|5.1.0|[Game](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.1.0_5.3.0_hdiff_EqAXgBXKuyfZhuCC.zip)|23.39 GiB|`f5dba04301e9c3c4985ef5f68b342f69`|
-|5.1.0|[Audio - Japanese (Japan)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ja-jp_5.1.0_5.3.0_hdiff_gsmDWqeCKRCyKocR.zip)|1.09 GiB|`9d35e1a6dca5e89659e5a8e62ee72ec3`|
-|5.1.0|[Audio - American English](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_en-us_5.1.0_5.3.0_hdiff_XntHHgeQMKmMPDPD.zip)|1.05 GiB|`eda197bbb6f35f27d04443dc20e63d4e`|
-|5.1.0|[Audio - Korean (South Korea)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ko-kr_5.1.0_5.3.0_hdiff_ZNxbHFxkCPDnTaZZ.zip)|984.31 MiB|`8421256053f495379f1bef6247cb5cdc`|
-|5.1.0|[Audio - Chinese (China)](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_zh-cn_5.1.0_5.3.0_hdiff_bwYLrQOzBulwMjsk.zip)|942.31 MiB|`574d39b7d624be84a4b718a7da2f7071`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-5.4.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -117,7 +73,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 7](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.007)|10 GiB|`894d8ee64fe7dc183c3f0bd468604e89`|
 |[Part 8](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/GenshinImpact_5.4.0.zip.008)|1.71 GiB|`0cba1f6ffdc0170d6ed53be045b1038b`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -126,7 +82,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Korean (South Korea)](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/Audio_Korean_5.4.0.zip)|14.48 GiB|`519f71c38b184ba2a6fe9994ba42dc79`|
 |[Japanese (Japan)](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20250125201352_EiPmYLKVptWspsHf/Audio_Japanese_5.4.0.zip)|19.08 GiB|`7c989a875bc30a6f9e06e70ac61819f2`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
@@ -241,53 +197,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Genshin Impact - China
 
-<img src="https://img.shields.io/badge/Game_version-5.3.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-5.4.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.001)|10 GiB|`dfd9805063742bfcb50a0b9d14730294`|
-|[Part 2](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.002)|10 GiB|`168b2e98666e2321b0f9033c598aded1`|
-|[Part 3](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.003)|10 GiB|`86f24f66fe12c5c3ac7685f410bbbfe5`|
-|[Part 4](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.004)|10 GiB|`8292091e563ee2dfd0496062afb853e3`|
-|[Part 5](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.005)|10 GiB|`7eacca41a3c50c1d454caf1e1d28ec6b`|
-|[Part 6](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.006)|10 GiB|`f1b7f1ec08fc591b59d473fd401d9f29`|
-|[Part 7](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.007)|10 GiB|`1ca82cda5d96e24245e942b9b1b1b733`|
-|[Part 8](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/YuanShen_5.3.0.zip.008)|973.35 MiB|`6663a60a87fdfb1b32e3a441c1c7386a`|
-
-### Audio Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Chinese (China)](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/Audio_Chinese_5.3.0.zip)|14.2 GiB|`768c5a764467d82b8cd22b2d0f2070c7`|
-|[American English](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/Audio_English(US)_5.3.0.zip)|16.24 GiB|`e433e0ff0b2a1d11866d85a54a41e109`|
-|[Korean (South Korea)](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/Audio_Korean_5.3.0.zip)|14 GiB|`4ede4139552fc231539d60ce463afea6`|
-|[Japanese (Japan)](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20241219110613_vK9mgN3GmQ2Uhp3H/Audio_Japanese_5.3.0.zip)|18.44 GiB|`97ce919c16751b35e3d00a6b6767b9e5`|
-
-### Update Diff Package
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|5.2.0|[Game](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/game_5.2.0_5.3.0_hdiff_ytGasWqEaXpmGCWG.zip)|17.17 GiB|`bcedac066eefafb31163715537ff3f66`|
-|5.2.0|[Audio - Chinese (China)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_zh-cn_5.2.0_5.3.0_hdiff_YRJIWGVWmWnTlHvi.zip)|661.34 MiB|`1e1715157bea1529b23cbcd9f774080b`|
-|5.2.0|[Audio - Korean (South Korea)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_ko-kr_5.2.0_5.3.0_hdiff_AEaErWpYuTtLORmt.zip)|703.04 MiB|`bffa6b0881fc5354c92496c309902f2f`|
-|5.2.0|[Audio - American English](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_en-us_5.2.0_5.3.0_hdiff_kAwQngUFwmWkHWGB.zip)|665.68 MiB|`51d78b9414c1372d2aa56df3e9e1212e`|
-|5.2.0|[Audio - Japanese (Japan)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_ja-jp_5.2.0_5.3.0_hdiff_rxqAmWmPJmiEXxIu.zip)|803.66 MiB|`bf05be3d5c7478dc61de8fc7551fc142`|
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|5.1.0|[Game](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/game_5.1.0_5.3.0_hdiff_NVpqjmmopOTjwIYs.zip)|23.39 GiB|`9daec000a857128400af5afcf4e81119`|
-|5.1.0|[Audio - Chinese (China)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_zh-cn_5.1.0_5.3.0_hdiff_IxMBjWrFkwhiCREn.zip)|942.31 MiB|`404dc0a4959979a0a978d70a6cd2756c`|
-|5.1.0|[Audio - Korean (South Korea)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_ko-kr_5.1.0_5.3.0_hdiff_AZxJUPanatpNDbmY.zip)|984.31 MiB|`409bd7b87fd4aedaafba84b5f0a2b94a`|
-|5.1.0|[Audio - American English](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_en-us_5.1.0_5.3.0_hdiff_ryVaVvKSHEJWXgyZ.zip)|1.05 GiB|`e0fad3d04c804cdb8db5429dd98ae867`|
-|5.1.0|[Audio - Japanese (Japan)](https://autopatchcn.yuanshen.com/client_app/update/hk4e_cn/audio_ja-jp_5.1.0_5.3.0_hdiff_GXOrFasrRPQULViw.zip)|1.09 GiB|`b1a78016757158a2dd15e8910ea37bee`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-5.4.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -300,7 +212,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 7](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250125201057_0ifxFarbiqTpJ7WD/YuanShen_5.4.0.zip.007)|10 GiB|`4aca06c94a460147fd79adb3280200f1`|
 |[Part 8](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250125201057_0ifxFarbiqTpJ7WD/YuanShen_5.4.0.zip.008)|1.71 GiB|`ed72e32c568af714822e0e6e6e032bc1`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -309,7 +221,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Korean (South Korea)](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250125201057_0ifxFarbiqTpJ7WD/Audio_Korean_5.4.0.zip)|14.48 GiB|`4bc3240447cd29cd23addd81e42a116e`|
 |[Japanese (Japan)](https://autopatchcn.yuanshen.com/client_app/download/pc_zip/20250125201057_0ifxFarbiqTpJ7WD/Audio_Japanese_5.4.0.zip)|19.08 GiB|`09618a96fb0066d502a95ccb5d65debc`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
