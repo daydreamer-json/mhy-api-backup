@@ -185,6 +185,52 @@ The old launcher is no longer supported and the API used until now has stopped b
 |1.3.0|[Audio - Korean (South Korea)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_1.3.0_1.5.0_hdiff_oNBbsMBUKcSPvHMZ.zip)|299.09 MiB|`f2d3ff547958d25446d27b54c8e39d11`|
 |1.3.0|[Audio - Chinese (China)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_1.3.0_1.5.0_hdiff_diELlvXtiqkFxOvo.zip)|355.94 MiB|`bbd92d9039634633c74484323a9452cf`|
 
+### Pre-download Package
+
+<img src="https://img.shields.io/badge/Pre--download_version-1.6.0-033dfc?style=flat-square" height="31"/>
+
+#### Full Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Part 1](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.001)|6.17 GiB|`e9fc5e85afd59c367d141ab894a78bd0`|
+|[Part 2](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.002)|6.17 GiB|`e3af275d1cfc7368508d20bc13c62d58`|
+|[Part 3](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.003)|6.17 GiB|`b71fc4102ff5b350aa0215bff6f312c3`|
+|[Part 4](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.004)|6.17 GiB|`8fb0c103772eb22295fb41e0c6853a1f`|
+|[Part 5](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.005)|6.17 GiB|`61e20ad7d6fcaa8cc84946b0082aed02`|
+|[Part 6](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.006)|6.17 GiB|`a0a37e69c27ec4660c96c0492cab7519`|
+|[Part 7](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.007)|6.17 GiB|`8b8fe8181cc687ac314115f02e814bdc`|
+|[Part 8](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.008)|6.17 GiB|`3ee86f68c4babdab77c39650ac3b0301`|
+|[Part 9](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.009)|6.17 GiB|`9200369f9a4573a5ddf4e11cac5be1a5`|
+|[Part 10](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/VolumeZip/ZenlessZoneZero_1.6.0_AS.zip.010)|6.16 GiB|`5a9af6bc708949715c20da3812a59508`|
+
+#### Audio Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Chinese (China)](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/audio_zip_Cn.zip)|1.37 GiB|`317420f4b84a4aefc35f66cd915abcb3`|
+|[American English](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/audio_zip_En.zip)|1.44 GiB|`f98c8e2f36b02fff0bd9ecccdddbf149`|
+|[Japanese (Japan)](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/audio_zip_Jp.zip)|1.72 GiB|`9022da3318c4092efa8758b66d30a666`|
+|[Korean (South Korea)](https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20250302131501_XPL3MbP0GgnuJoHq/audio_zip_Kr.zip)|1.56 GiB|`68f7d112000f4b09cd97af72c8bdd905`|
+
+#### Update Diff Package
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|1.5.0|[Game](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.5.0_1.6.0_hdiff_DSxyLlSUswbKlgdV.zip)|5.84 GiB|`9cee083f3f4763be98bde9d5aec9ccd2`|
+|1.5.0|[Audio - Korean (South Korea)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_1.5.0_1.6.0_hdiff_JuVqCMVWxYNvxjbz.zip)|315.14 MiB|`6cde3a28096bf9d204b29516af71f4c6`|
+|1.5.0|[Audio - American English](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_1.5.0_1.6.0_hdiff_WkmgnXhJDLneYyLq.zip)|362.82 MiB|`500d96a1dfcba95b4bea097709790901`|
+|1.5.0|[Audio - Japanese (Japan)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_1.5.0_1.6.0_hdiff_HhzOoXwRAmMHsrQN.zip)|356.07 MiB|`8c570a327fcf06ef1616371073356917`|
+|1.5.0|[Audio - Chinese (China)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_1.5.0_1.6.0_hdiff_MFltGYfcSlRzRFdf.zip)|194.41 MiB|`f2d853aab72588a4c8497ac29a86abc1`|
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|1.4.0|[Game](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_1.4.0_1.6.0_hdiff_abQGGIosegcHEzzo.zip)|9.44 GiB|`1fc3dced63ca55c86472677fd2e877d2`|
+|1.4.0|[Audio - American English](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_1.4.0_1.6.0_hdiff_mfHOPjxPwLBbVbED.zip)|432.72 MiB|`b2f3c1eb58efe719eb62114d713c2757`|
+|1.4.0|[Audio - Japanese (Japan)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_1.4.0_1.6.0_hdiff_ftaRuqbtApVenZgy.zip)|425.25 MiB|`7b704ec84f3a0bcdb12b43080fe1b09d`|
+|1.4.0|[Audio - Chinese (China)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_1.4.0_1.6.0_hdiff_PcKTbYSYcMapIejm.zip)|326.23 MiB|`cd3749e220a707ae6bd3c3cf89e61d06`|
+|1.4.0|[Audio - Korean (South Korea)](https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_1.4.0_1.6.0_hdiff_TmfNepRHQldWVqHQ.zip)|380.46 MiB|`69c40e0ecc930f6d19b6e439a5c98432`|
+
 ## Honkai Impact 3rd - China
 
 <img src="https://img.shields.io/badge/Game_version-8.1.0-033dfc?style=flat-square" height="31"/>
@@ -323,3 +369,49 @@ The old launcher is no longer supported and the API used until now has stopped b
 |1.3.0|[Audio - American English](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_en-us_1.3.0_1.5.0_hdiff_JMRomuLwYnUEPEcY.zip)|265.77 MiB|`3f62f8c6705b2b0b5942e813f63ab7a5`|
 |1.3.0|[Audio - Japanese (Japan)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ja-jp_1.3.0_1.5.0_hdiff_vfISPxNapzcYZJEC.zip)|320.5 MiB|`e3b8d8e24c977e18838434668b71a67c`|
 |1.3.0|[Audio - Korean (South Korea)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ko-kr_1.3.0_1.5.0_hdiff_MkjoWrOHaetZKaiY.zip)|299.09 MiB|`5fca3864069b3c793c4dc8e173566277`|
+
+### Pre-download Package
+
+<img src="https://img.shields.io/badge/Pre--download_version-1.6.0-033dfc?style=flat-square" height="31"/>
+
+#### Full Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Part 1](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.001)|6.17 GiB|`3d05b0f9ae494046d0c01b57be304066`|
+|[Part 2](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.002)|6.17 GiB|`c2a788dde26328e9e6949184b39fab46`|
+|[Part 3](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.003)|6.17 GiB|`72b5efea7fa4af6320bcd0a257499e27`|
+|[Part 4](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.004)|6.17 GiB|`efb26237838ecbd2a5d36ece9563a1f6`|
+|[Part 5](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.005)|6.17 GiB|`040d3d1133bac279b0fb258eba96cfb8`|
+|[Part 6](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.006)|6.17 GiB|`30022736a80d72f7af5c701e76b07d0c`|
+|[Part 7](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.007)|6.17 GiB|`07d1e4d0b772f191c2852387c941d256`|
+|[Part 8](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.008)|6.17 GiB|`a839e5f649ee70389b45a3b46e215b45`|
+|[Part 9](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.009)|6.17 GiB|`29065da74917f71297d6f3e016274ea0`|
+|[Part 10](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/VolumeZip/juequling_1.6.0_AS.zip.010)|6.16 GiB|`8361de64118407f8408014b855167731`|
+
+#### Audio Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Chinese (China)](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/audio_zip_Cn.zip)|1.37 GiB|`07ff4d0493a9f29d794673616641b684`|
+|[American English](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/audio_zip_En.zip)|1.44 GiB|`5d6ae53de411ece0d975b51d74afd696`|
+|[Japanese (Japan)](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/audio_zip_Jp.zip)|1.72 GiB|`9305f83a5dda35843af182bfbdc5d9b0`|
+|[Korean (South Korea)](https://autopatchcn.juequling.com/package_download/op/client_app/download/20250226103707_kZsYhhMi349UXRNc/audio_zip_Kr.zip)|1.56 GiB|`759ca04ee40ec4e4d11b4fb02b33931a`|
+
+#### Update Diff Package
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|1.5.0|[Game](https://autopatchcn.juequling.com/pclauncher/nap_cn/game_1.5.0_1.6.0_hdiff_LWBxUVNsflWynFRd.zip)|5.85 GiB|`284a30d4a3059a9b2c2a9c4ee83768d3`|
+|1.5.0|[Audio - Korean (South Korea)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ko-kr_1.5.0_1.6.0_hdiff_vmWubkYnbyRuTyvJ.zip)|315.14 MiB|`7c06491a0b7a91206264005db55c13b2`|
+|1.5.0|[Audio - American English](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_en-us_1.5.0_1.6.0_hdiff_WGyTKuHKmuDXJTsn.zip)|362.82 MiB|`f6f87856c669f23c13f77c4d0bb2120f`|
+|1.5.0|[Audio - Japanese (Japan)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ja-jp_1.5.0_1.6.0_hdiff_uOKwWkOAElRrISGS.zip)|356.07 MiB|`66a375b5e77b0e6f67ef1ddeb3a24be3`|
+|1.5.0|[Audio - Chinese (China)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_zh-cn_1.5.0_1.6.0_hdiff_cRHmWgXrkRYbNxtY.zip)|194.41 MiB|`6e3399062d68e2ad0e385e666b01b4ea`|
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|1.4.0|[Game](https://autopatchcn.juequling.com/pclauncher/nap_cn/game_1.4.0_1.6.0_hdiff_zzXnXJmBxIqRWTwZ.zip)|9.43 GiB|`13ccc2aaf7be153cf25b4d3a749078d8`|
+|1.4.0|[Audio - American English](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_en-us_1.4.0_1.6.0_hdiff_ILAMNTWlMHEFewMN.zip)|432.72 MiB|`7a1719c3e1d6ffd0e636d52f5565902a`|
+|1.4.0|[Audio - Japanese (Japan)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ja-jp_1.4.0_1.6.0_hdiff_yPJxfFCNJoABZYfm.zip)|425.25 MiB|`57b839fcb953f6c5c825ed3d812e8fae`|
+|1.4.0|[Audio - Chinese (China)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_zh-cn_1.4.0_1.6.0_hdiff_NkSYIfUVyNTqPCSZ.zip)|326.23 MiB|`0c78d026a8427fd7d54bc40c7ffcc525`|
+|1.4.0|[Audio - Korean (South Korea)](https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ko-kr_1.4.0_1.6.0_hdiff_USqMafOrsWPirydo.zip)|380.46 MiB|`3cc830eb6babca942793fa09f71e5066`|
