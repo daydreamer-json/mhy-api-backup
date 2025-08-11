@@ -139,6 +139,42 @@ The old launcher is no longer supported and the API used until now has stopped b
 |3.3.0|[Audio - Japanese (Japan)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ja-jp_3.3.0_3.4.0_hdiff_VjKynNjNnSHPxadp.7z)|409.32 MiB|`bc0f9d7fd31bfd1c590ba367ab99f26d`|
 |3.3.0|[Audio - American English](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_en-us_3.3.0_3.4.0_hdiff_XGgMIEOilbuMsEbp.7z)|596.08 MiB|`dee449917a858da1ab9051dea95a0c37`|
 
+### Pre-download Package
+
+<img src="https://img.shields.io/badge/Pre--download_version-3.5.0-033dfc?style=flat-square" height="31"/>
+
+#### Full Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Part 1](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.001)|7 GiB|`a252281792edff53e2aa155a68003518`|
+|[Part 2](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.002)|7 GiB|`777306c7f2004793832314de8aea3c9f`|
+|[Part 3](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.003)|7 GiB|`db9d3baf307d59228525cf43913008a9`|
+|[Part 4](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.004)|7 GiB|`8f667b121728f1b2e3ca1b784e8b1c96`|
+|[Part 5](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.005)|7 GiB|`04c935e4c8396a88769ea994c38e6a5a`|
+|[Part 6](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.006)|7 GiB|`ea85721b488972b8ea705376e5ede9c7`|
+|[Part 7](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.007)|7 GiB|`a3b9c8c978c63548ac560cfdcaf6135c`|
+|[Part 8](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/download/StarRail_3.5.0.7z.008)|5.4 GiB|`b603c8d14e50b47354cfa34508ba7bd1`|
+
+#### Audio Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Chinese (China)](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/Chinese.7z)|8.45 GiB|`28fa352155afbac10678d7a6f716a910`|
+|[American English](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/English.7z)|9.96 GiB|`857a68db683a5f44145668fb39a33b4a`|
+|[Korean (South Korea)](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/Korean.7z)|8.33 GiB|`6347f4fde107ce6286b5d3d5db520c55`|
+|[Japanese (Japan)](https://autopatchos.starrails.com/client/download/20250801100214_0zy6TF7pFIyqvbI0/PC/Japanese.7z)|10.38 GiB|`2b64f1da4b3dad8dabe5862d6635561e`|
+
+#### Update Diff Package
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|3.4.0|[Game](https://autopatchos.starrails.com/client/diff/hkrpg_global/game_3.4.0_3.5.0_hdiff_SyiiunQLNVlWgyFX.7z)|4.72 GiB|`9aa634ea3495d36d2c4f70e6b242d4c9`|
+|3.4.0|[Audio - Chinese (China)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_zh-cn_3.4.0_3.5.0_hdiff_gLTiIDnMNcFZjoXZ.7z)|586.28 MiB|`66f59225a4e94eb61485411d3b63a69f`|
+|3.4.0|[Audio - Korean (South Korea)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ko-kr_3.4.0_3.5.0_hdiff_uMFzfihDMhUoKCen.7z)|564.83 MiB|`6529aff09e9bd7b3733fd7bbe8b03830`|
+|3.4.0|[Audio - Japanese (Japan)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ja-jp_3.4.0_3.5.0_hdiff_HmrJbkeBVUtgBTYS.7z)|716.43 MiB|`ad898390ccc5bd9d79c167b9a232b22c`|
+|3.4.0|[Audio - American English](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_en-us_3.4.0_3.5.0_hdiff_RlnUAvCdTVksENDL.7z)|780.84 MiB|`b4bce00687e1a4a3e535a7a51a2024f0`|
+
 ## Zenless Zone Zero - Global
 
 <img src="https://img.shields.io/badge/Game_version-2.1.0-033dfc?style=flat-square" height="31"/>
@@ -277,6 +313,42 @@ The old launcher is no longer supported and the API used until now has stopped b
 |3.3.0|[Audio - Korean (South Korea)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ko-kr_3.3.0_3.4.0_hdiff_jvZfowMdxeymhRas.7z)|346.26 MiB|`813ae9e31e30b666b7741a13cdbf347d`|
 |3.3.0|[Audio - Japanese (Japan)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ja-jp_3.3.0_3.4.0_hdiff_pZZGwFAAuDvrnmAB.7z)|409.32 MiB|`9235f1d0b94b348f066506b67855bbb4`|
 |3.3.0|[Audio - American English](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_en-us_3.3.0_3.4.0_hdiff_jdVIJlxLjYwMONQb.7z)|596.08 MiB|`b64467331d8e74f0e7439efef1da10ab`|
+
+### Pre-download Package
+
+<img src="https://img.shields.io/badge/Pre--download_version-3.5.0-033dfc?style=flat-square" height="31"/>
+
+#### Full Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Part 1](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.001)|7 GiB|`143689cd186135cd4904771fb57bd7a8`|
+|[Part 2](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.002)|7 GiB|`777306c7f2004793832314de8aea3c9f`|
+|[Part 3](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.003)|7 GiB|`db9d3baf307d59228525cf43913008a9`|
+|[Part 4](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.004)|7 GiB|`8f667b121728f1b2e3ca1b784e8b1c96`|
+|[Part 5](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.005)|7 GiB|`04c935e4c8396a88769ea994c38e6a5a`|
+|[Part 6](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.006)|7 GiB|`c567ee2994cfe7afae40289d461e450b`|
+|[Part 7](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.007)|7 GiB|`6415c931b40f9b6be36e04decae3e1d4`|
+|[Part 8](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/download/StarRail_3.5.0.7z.008)|5.4 GiB|`32980db02a5a5f5f09c383c380f9f8af`|
+
+#### Audio Package
+
+|Link|Size|MD5|
+|---|---|---|
+|[Chinese (China)](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/Chinese.7z)|8.45 GiB|`28fa352155afbac10678d7a6f716a910`|
+|[American English](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/English.7z)|9.96 GiB|`857a68db683a5f44145668fb39a33b4a`|
+|[Korean (South Korea)](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/Korean.7z)|8.33 GiB|`6347f4fde107ce6286b5d3d5db520c55`|
+|[Japanese (Japan)](https://autopatchcn.bhsr.com/client/cn/20250801095641_kxqtATivuUQTh3gw/PC/Japanese.7z)|10.38 GiB|`2b64f1da4b3dad8dabe5862d6635561e`|
+
+#### Update Diff Package
+
+|From|Link|Size|MD5|
+|---|---|---|---|
+|3.4.0|[Game](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/game_3.4.0_3.5.0_hdiff_RMhauuObFpCfUqUf.7z)|4.72 GiB|`7ee9f07f0bd78de6affefbb28c6a90bd`|
+|3.4.0|[Audio - Chinese (China)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_zh-cn_3.4.0_3.5.0_hdiff_SVqVDJuGldCxPmUa.7z)|586.28 MiB|`be1627ab84366e63c5f8c524e36acea5`|
+|3.4.0|[Audio - Korean (South Korea)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ko-kr_3.4.0_3.5.0_hdiff_YlPGCiflkVCvegdl.7z)|564.83 MiB|`23c9622994f79a930d2932d61e77242a`|
+|3.4.0|[Audio - Japanese (Japan)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ja-jp_3.4.0_3.5.0_hdiff_AuwBkCNDJSSEsAen.7z)|716.43 MiB|`f43308e028d6897c4937153cb625de33`|
+|3.4.0|[Audio - American English](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_en-us_3.4.0_3.5.0_hdiff_BUKXQKRewsKDkBXA.7z)|780.84 MiB|`6ad6e6254771294e8c80f3046253eecf`|
 
 ## Zenless Zone Zero - China
 
