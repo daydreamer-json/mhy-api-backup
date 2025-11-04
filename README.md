@@ -102,46 +102,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Honkai: Star Rail - Global
 
-<img src="https://img.shields.io/badge/Game_version-3.6.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-3.7.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.001)|7 GiB|`434af1151404c1acacad7079b92d3c5a`|
-|[Part 2](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.002)|7 GiB|`618153dcfb67b74e3661eea1783b4a4b`|
-|[Part 3](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.003)|7 GiB|`1c224a6ddbe396daf019afe12af6ce62`|
-|[Part 4](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.004)|7 GiB|`106766f011f28e059d73c8d45e87a35a`|
-|[Part 5](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.005)|7 GiB|`cc75329a2a67595825b054a67ee87b0e`|
-|[Part 6](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.006)|7 GiB|`4c84f63c4574b14211249d8301e41289`|
-|[Part 7](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.007)|7 GiB|`37cf29722a770e3ed7c569b7cb45e36d`|
-|[Part 8](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.008)|7 GiB|`c63d736ac567092df0386189b2aa8149`|
-|[Part 9](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/download/StarRail_3.6.0.7z.009)|1.02 GiB|`7dea1dee0bcfae10847f2134b2f88045`|
-
-### Audio Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Chinese (China)](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/Chinese.7z)|8.74 GiB|`f738e806b1fa4d4a466a8e8f7f06fb8b`|
-|[American English](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/English.7z)|10.42 GiB|`77b8739f092b663391f3324f97c017b0`|
-|[Japanese (Japan)](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/Japanese.7z)|10.74 GiB|`0aa022f8d605d20f182f815c4fae1e6d`|
-|[Korean (South Korea)](https://autopatchos.starrails.com/client/download/20250913164141_tr7lKfbYCfL2GUSk/PC/Korean.7z)|8.62 GiB|`8433ab3620d36ece5c955f9f1731e31d`|
-
-### Update Diff Package
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|3.5.0|[Game](https://autopatchos.starrails.com/client/diff/hkrpg_global/game_3.5.0_3.6.0_hdiff_XMmBzxlycWbxumyx.7z)|17.71 GiB|`ec2dd4ba59d2d2d0e67591c41c7fa644`|
-|3.5.0|[Audio - Chinese (China)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_zh-cn_3.5.0_3.6.0_hdiff_LZUFHgBgfkvXkXwb.7z)|296.76 MiB|`b5c7612347a1ec43482473290a3d9b05`|
-|3.5.0|[Audio - Korean (South Korea)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ko-kr_3.5.0_3.6.0_hdiff_EqpaSnWQlPTRNuzO.7z)|295.3 MiB|`3e37802976902ce66939494d06106638`|
-|3.5.0|[Audio - Japanese (Japan)](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_ja-jp_3.5.0_3.6.0_hdiff_wkaTYuKrqOrjjJhz.7z)|369.38 MiB|`f67c8c4aa2cfb703f893cb03c5d93ef8`|
-|3.5.0|[Audio - American English](https://autopatchos.starrails.com/client/diff/hkrpg_global/audio_en-us_3.5.0_3.6.0_hdiff_xzCoJhbqimBNjpxt.7z)|480.42 MiB|`83ec816810ffb328c70eb25c86770fad`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-3.7.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -155,7 +118,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 8](https://autopatchos.starrails.com/client/download/20251024193614_3K9lSdJSJFRNQbYl/PC/download/StarRail_3.7.0.7z.008)|7 GiB|`6fb8e713af52bb718290f25dc33a89e4`|
 |[Part 9](https://autopatchos.starrails.com/client/download/20251024193614_3K9lSdJSJFRNQbYl/PC/download/StarRail_3.7.0.7z.009)|5.5 GiB|`3641657b36692c507df57a8616a28f12`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -164,7 +127,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Japanese (Japan)](https://autopatchos.starrails.com/client/download/20251024193614_3K9lSdJSJFRNQbYl/PC/Japanese.7z)|11.17 GiB|`5dfaaa057d95fa734af25f9e7635ab5c`|
 |[Korean (South Korea)](https://autopatchos.starrails.com/client/download/20251024193614_3K9lSdJSJFRNQbYl/PC/Korean.7z)|8.98 GiB|`a2da0d9364736abfa124a7a9d32d72df`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
@@ -276,46 +239,9 @@ The old launcher is no longer supported and the API used until now has stopped b
 
 ## Honkai: Star Rail - China
 
-<img src="https://img.shields.io/badge/Game_version-3.6.0-033dfc?style=flat-square" height="31"/>
+<img src="https://img.shields.io/badge/Game_version-3.7.0-033dfc?style=flat-square" height="31"/>
 
 ### Full Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Part 1](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.001)|7 GiB|`92cf6f1924b9c64822c8ccdd88e45f3a`|
-|[Part 2](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.002)|7 GiB|`618153dcfb67b74e3661eea1783b4a4b`|
-|[Part 3](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.003)|7 GiB|`1c224a6ddbe396daf019afe12af6ce62`|
-|[Part 4](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.004)|7 GiB|`106766f011f28e059d73c8d45e87a35a`|
-|[Part 5](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.005)|7 GiB|`cc75329a2a67595825b054a67ee87b0e`|
-|[Part 6](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.006)|7 GiB|`e4a776a36160f8fa883e8952636163a3`|
-|[Part 7](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.007)|7 GiB|`9f0acc5b49e114bc1efd969c3270fe74`|
-|[Part 8](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.008)|7 GiB|`7315662d536dac61d230bbdc276d65a8`|
-|[Part 9](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/download/StarRail_3.6.0.7z.009)|1.02 GiB|`7b7ef011aefc31dc3cb959008352706b`|
-
-### Audio Package
-
-|Link|Size|MD5|
-|---|---|---|
-|[Chinese (China)](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/Chinese.7z)|8.74 GiB|`f738e806b1fa4d4a466a8e8f7f06fb8b`|
-|[American English](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/English.7z)|10.42 GiB|`77b8739f092b663391f3324f97c017b0`|
-|[Japanese (Japan)](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/Japanese.7z)|10.74 GiB|`0aa022f8d605d20f182f815c4fae1e6d`|
-|[Korean (South Korea)](https://autopatchcn.bhsr.com/client/cn/20250913163925_dgTMhCJ7OUmyjlsh/PC/Korean.7z)|8.62 GiB|`8433ab3620d36ece5c955f9f1731e31d`|
-
-### Update Diff Package
-
-|From|Link|Size|MD5|
-|---|---|---|---|
-|3.5.0|[Game](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/game_3.5.0_3.6.0_hdiff_gsgfkohFiNdmenRa.7z)|17.71 GiB|`00afec601ff7a7f7e641dbf0bb181ec6`|
-|3.5.0|[Audio - Chinese (China)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_zh-cn_3.5.0_3.6.0_hdiff_RdgUYTTQyzClDeTm.7z)|296.76 MiB|`88f6f5176fb115ea014af5870c77b1b6`|
-|3.5.0|[Audio - Korean (South Korea)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ko-kr_3.5.0_3.6.0_hdiff_FyGKqnaQxpaudPuZ.7z)|295.3 MiB|`b86dba32283b672599f5d939541f309e`|
-|3.5.0|[Audio - Japanese (Japan)](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_ja-jp_3.5.0_3.6.0_hdiff_yQVPNjdXxBfzjtUW.7z)|369.38 MiB|`cd20cdceb51177e882ccc0df4caf5474`|
-|3.5.0|[Audio - American English](https://autopatchcn.bhsr.com/client/diff/hkrpg_cn/audio_en-us_3.5.0_3.6.0_hdiff_BEyyaZjWjSzQLfgh.7z)|480.42 MiB|`5898955df1ec2e272b46daa2afa3bd93`|
-
-### Pre-download Package
-
-<img src="https://img.shields.io/badge/Pre--download_version-3.7.0-033dfc?style=flat-square" height="31"/>
-
-#### Full Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -329,7 +255,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Part 8](https://autopatchcn.bhsr.com/client/cn/20251024193414_uAAcaRaSHC7d0xTb/PC/download/StarRail_3.7.0.7z.008)|7 GiB|`3530a36a8018fd2cb3cdb1605e2111f7`|
 |[Part 9](https://autopatchcn.bhsr.com/client/cn/20251024193414_uAAcaRaSHC7d0xTb/PC/download/StarRail_3.7.0.7z.009)|5.5 GiB|`7434ec0e7daf93f791b9c02050fe7dd2`|
 
-#### Audio Package
+### Audio Package
 
 |Link|Size|MD5|
 |---|---|---|
@@ -338,7 +264,7 @@ The old launcher is no longer supported and the API used until now has stopped b
 |[Japanese (Japan)](https://autopatchcn.bhsr.com/client/cn/20251024193414_uAAcaRaSHC7d0xTb/PC/Japanese.7z)|11.17 GiB|`5dfaaa057d95fa734af25f9e7635ab5c`|
 |[Korean (South Korea)](https://autopatchcn.bhsr.com/client/cn/20251024193414_uAAcaRaSHC7d0xTb/PC/Korean.7z)|8.98 GiB|`a2da0d9364736abfa124a7a9d32d72df`|
 
-#### Update Diff Package
+### Update Diff Package
 
 |From|Link|Size|MD5|
 |---|---|---|---|
