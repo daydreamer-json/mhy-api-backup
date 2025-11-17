@@ -187,11 +187,13 @@
             ],
             "res_list_url": ""
           }
-        ]
+        ],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -333,11 +335,13 @@
             ],
             "res_list_url": ""
           }
-        ]
+        ],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -515,11 +519,13 @@
             ],
             "res_list_url": ""
           }
-        ]
+        ],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -541,11 +547,13 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251014141805_FYJHMMFiNtR1LiKx/extract"
         },
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -567,11 +575,13 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/bh3_jp/20251014142222_J00Y2FKmdQMZWXJb/extract"
         },
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -593,11 +603,13 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20251014142325_Dwwngvt8Ql4Cs5cz/extract"
         },
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -619,11 +631,13 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchos.honkaiimpact3.com/ptpublic/bh3_overseas/20251014142029_mENCBnXmy0KfBbCA/extract"
         },
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -645,11 +659,13 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20251014142415_mj8zIyMGSXbSJ38v/extract"
         },
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       },
       "pre_download": {
         "major": null,
-        "patches": []
+        "patches": [],
+        "required_client_version": ""
       }
     }
   ]
