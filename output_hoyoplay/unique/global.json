@@ -541,23 +541,6 @@
       },
       "main": {
         "major": {
-          "version": "8.5.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251014141805_FYJHMMFiNtR1LiKx/BH3_v8.5.0_48fc57c59793.7z",
-              "md5": "cc2a100e794a46047cafbf383422f599",
-              "size": "24803836132",
-              "decompressed_size": "49618158024"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251014141805_FYJHMMFiNtR1LiKx/extract"
-        },
-        "patches": [],
-        "required_client_version": ""
-      },
-      "pre_download": {
-        "major": {
           "version": "8.6.0",
           "game_pkgs": [
             {
@@ -570,6 +553,11 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchglb.honkaiimpact3.com/ptpublic/bh3_glb/20251223145231_wv1IwCLCgMcdYwpM/extract"
         },
+        "patches": [],
+        "required_client_version": ""
+      },
+      "pre_download": {
+        "major": null,
         "patches": [],
         "required_client_version": ""
       }
