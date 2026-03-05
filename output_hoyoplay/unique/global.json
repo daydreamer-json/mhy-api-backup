@@ -587,23 +587,6 @@
       },
       "main": {
         "major": {
-          "version": "8.6.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchjp.honkaiimpact3.com/ptpublic/bh3_jp/20251223164807_MXdiX5Mi37IG7Eeo/BH3_v8.6.0_96dac6c2fcd9.7z",
-              "md5": "3d05df0d5ab1559f5a0d8873e7529474",
-              "size": "24715194253",
-              "decompressed_size": "49440874266"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchjp.honkaiimpact3.com/ptpublic/bh3_jp/20251223164807_MXdiX5Mi37IG7Eeo/extract"
-        },
-        "patches": [],
-        "required_client_version": ""
-      },
-      "pre_download": {
-        "major": {
           "version": "8.7.0",
           "game_pkgs": [
             {
@@ -618,6 +601,11 @@
         },
         "patches": [],
         "required_client_version": ""
+      },
+      "pre_download": {
+        "major": null,
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -626,23 +614,6 @@
         "biz": "bh3_global"
       },
       "main": {
-        "major": {
-          "version": "8.6.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20251223145823_S12JyelQqskSqD4z/BH3_v8.6.0_96dac6c2fcd9.7z",
-              "md5": "775b97d2223ef46a39ff429e231b1021",
-              "size": "24824942990",
-              "decompressed_size": "49660371740"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchkr.honkaiimpact3.com/ptpublic/bh3_kr/20251223145823_S12JyelQqskSqD4z/extract"
-        },
-        "patches": [],
-        "required_client_version": ""
-      },
-      "pre_download": {
         "major": {
           "version": "8.7.0",
           "game_pkgs": [
@@ -658,6 +629,11 @@
         },
         "patches": [],
         "required_client_version": ""
+      },
+      "pre_download": {
+        "major": null,
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -666,23 +642,6 @@
         "biz": "bh3_global"
       },
       "main": {
-        "major": {
-          "version": "8.6.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchos.honkaiimpact3.com/ptpublic/bh3_overseas/20251223145604_Rhadrpdk3qvU6UD7/BH3_v8.6.0_96dac6c2fcd9.7z",
-              "md5": "5b59be0cf637e836176b65281398c8ba",
-              "size": "25597146850",
-              "decompressed_size": "51204779460"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchos.honkaiimpact3.com/ptpublic/bh3_overseas/20251223145604_Rhadrpdk3qvU6UD7/extract"
-        },
-        "patches": [],
-        "required_client_version": ""
-      },
-      "pre_download": {
         "major": {
           "version": "8.7.0",
           "game_pkgs": [
@@ -698,6 +657,11 @@
         },
         "patches": [],
         "required_client_version": ""
+      },
+      "pre_download": {
+        "major": null,
+        "patches": [],
+        "required_client_version": ""
       }
     },
     {
@@ -706,23 +670,6 @@
         "biz": "bh3_global"
       },
       "main": {
-        "major": {
-          "version": "8.6.0",
-          "game_pkgs": [
-            {
-              "url": "https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20251223145940_7eJqh9iB7WHUalfa/BH3_v8.6.0_96dac6c2fcd9.7z",
-              "md5": "e288e34a06d7bff934b4be57c1ed0535",
-              "size": "24827430154",
-              "decompressed_size": "49665346068"
-            }
-          ],
-          "audio_pkgs": [],
-          "res_list_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20251223145940_7eJqh9iB7WHUalfa/extract"
-        },
-        "patches": [],
-        "required_client_version": ""
-      },
-      "pre_download": {
         "major": {
           "version": "8.7.0",
           "game_pkgs": [
@@ -736,6 +683,11 @@
           "audio_pkgs": [],
           "res_list_url": "https://autopatchasia.honkaiimpact3.com/ptpublic/bh3_tw/20260225190420_ZLttniwfw2GusDsb/extract"
         },
+        "patches": [],
+        "required_client_version": ""
+      },
+      "pre_download": {
+        "major": null,
         "patches": [],
         "required_client_version": ""
       }
