@@ -192,9 +192,189 @@
           "required_client_version": "1.16.1.364"
         },
         "pre_download": {
-          "major": null,
-          "patches": [],
-          "required_client_version": ""
+          "major": {
+            "version": "3.3.0",
+            "game_pkgs": [
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.001",
+                "md5": "C58AEF7A98E532C28543C86255C8DCA0",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.002",
+                "md5": "CA896D4B5495566964FF3EFE64242B38",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.003",
+                "md5": "6E80FE6F475FADABE0CAB5BBC0053C47",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.004",
+                "md5": "4083A1D11433BA05846F6C36DE921B88",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.005",
+                "md5": "FD66CBE73E84A873B039DDCB6B047FB3",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.006",
+                "md5": "F947506E9A73BB5CEF7B48DF4329D1D5",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.007",
+                "md5": "3A7D2A35E7953D78E797B3D39817BD58",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.008",
+                "md5": "F4DF7DECBDFEB739244B39A2D421AAB2",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.009",
+                "md5": "CC51A705895CB4846B260C61F1C9E283",
+                "size": "8261730304",
+                "decompressed_size": "18175806669"
+              },
+              {
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/VolumeZip/ZenlessZoneZero_3.3.0_AS.zip.010",
+                "md5": "006897C1AAFA0AF60C2375782F71AF33",
+                "size": "8259866475",
+                "decompressed_size": "18171706245"
+              }
+            ],
+            "audio_pkgs": [
+              {
+                "language": "zh-cn",
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/audio_zip_Cn.zip",
+                "md5": "39ce1ad71734405723c5063a535ab02c",
+                "size": "4525073074",
+                "decompressed_size": "9955160763"
+              },
+              {
+                "language": "en-us",
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/audio_zip_En.zip",
+                "md5": "715a35532c18d23ada2b431ffdca8431",
+                "size": "4670647187",
+                "decompressed_size": "10275423812"
+              },
+              {
+                "language": "ja-jp",
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/audio_zip_Jp.zip",
+                "md5": "df97e5b5bf4419a0e1d4ccbc7886193b",
+                "size": "5145468395",
+                "decompressed_size": "11320030469"
+              },
+              {
+                "language": "ko-kr",
+                "url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/audio_zip_Kr.zip",
+                "md5": "0d23aa83aea8f8120e6915b7a2a14025",
+                "size": "4844054687",
+                "decompressed_size": "10656920312"
+              }
+            ],
+            "res_list_url": "https://autopatchos.zenlesszonezero.com/package_download/op/client_app/os/download/20260928114111_esFoPcTVHfeNu32V/SplitAudioZip"
+          },
+          "patches": [
+            {
+              "version": "3.2.0",
+              "game_pkgs": [
+                {
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_3.2.0_3.3.0_hdiff_htoMnlEfFUcPOmag.zip",
+                  "md5": "7015d1b1b367f874fdafbf0b0792254c",
+                  "size": "6854071089",
+                  "decompressed_size": "14581900383"
+                }
+              ],
+              "audio_pkgs": [
+                {
+                  "language": "zh-cn",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_3.2.0_3.3.0_hdiff_PZLkgMKokVbORiDE.zip",
+                  "md5": "d85a6016007ee69d14cbe70f61928b9a",
+                  "size": "311343599",
+                  "decompressed_size": "634597660"
+                },
+                {
+                  "language": "ko-kr",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_3.2.0_3.3.0_hdiff_ANpGLoGnGmIoyJtm.zip",
+                  "md5": "ec18950af5869837170d066935bc9ce6",
+                  "size": "170090806",
+                  "decompressed_size": "351764933"
+                },
+                {
+                  "language": "en-us",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_3.2.0_3.3.0_hdiff_QpOlvHcpYcYnLQOw.zip",
+                  "md5": "d37fa8bf73bf0bd0eaa3aee61a8e65e9",
+                  "size": "194228671",
+                  "decompressed_size": "399867342"
+                },
+                {
+                  "language": "ja-jp",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_3.2.0_3.3.0_hdiff_IINuhJgFfDMLAsWt.zip",
+                  "md5": "97c9c9e1416f3a98faba2a2f64fffd2b",
+                  "size": "185826713",
+                  "decompressed_size": "383359801"
+                }
+              ],
+              "res_list_url": ""
+            },
+            {
+              "version": "3.1.0",
+              "game_pkgs": [
+                {
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/game_3.1.0_3.3.0_hdiff_NONKALsgyMTuGwMy.zip",
+                  "md5": "6324f3264cd35333af1f9ecaffca2b5e",
+                  "size": "11537440210",
+                  "decompressed_size": "24064827779"
+                }
+              ],
+              "audio_pkgs": [
+                {
+                  "language": "zh-cn",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_zh-cn_3.1.0_3.3.0_hdiff_oHWaLMdwABTHFfVL.zip",
+                  "md5": "ecef501b33edf1645a2b207a7671caff",
+                  "size": "551966747",
+                  "decompressed_size": "1116800567"
+                },
+                {
+                  "language": "ko-kr",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ko-kr_3.1.0_3.3.0_hdiff_zLZvyYyLwvZefxsd.zip",
+                  "md5": "7900b47d4487bf872e9e83ab916f203c",
+                  "size": "463922679",
+                  "decompressed_size": "940569290"
+                },
+                {
+                  "language": "en-us",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_en-us_3.1.0_3.3.0_hdiff_tDizRduhnXYhIrgO.zip",
+                  "md5": "faa331571473b6e60ed24bdfaa12cdd3",
+                  "size": "488570049",
+                  "decompressed_size": "989435181"
+                },
+                {
+                  "language": "ja-jp",
+                  "url": "https://autopatchos.zenlesszonezero.com/pclauncher/nap_global/audio_ja-jp_3.1.0_3.3.0_hdiff_VPjrSWYhyDZwVXSO.zip",
+                  "md5": "b4daa24dcbd253ba43091a57d26c2ece",
+                  "size": "471655065",
+                  "decompressed_size": "956637516"
+                }
+              ],
+              "res_list_url": ""
+            }
+          ],
+          "required_client_version": "1.16.1.364"
         }
       },
       {
@@ -882,9 +1062,189 @@
           "required_client_version": "1.16.1.364"
         },
         "pre_download": {
-          "major": null,
-          "patches": [],
-          "required_client_version": ""
+          "major": {
+            "version": "3.3.0",
+            "game_pkgs": [
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.001",
+                "md5": "9C1AD1A4F02D4F78D5C8FEA0758287F7",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.002",
+                "md5": "F7FCB0289CFE6E04B43D30F9DB7E3E0E",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.003",
+                "md5": "D7C3FD895875503517E6E413A3BF02C5",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.004",
+                "md5": "98530207CC85A508283D32F8F1057FE4",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.005",
+                "md5": "2F781EC3D5921D85E75FCF7CE036F5AB",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.006",
+                "md5": "B527A3EEF69C0D0E21AAAF483E67490B",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.007",
+                "md5": "F60F19338A045628301C09C8B5BE59F7",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.008",
+                "md5": "C6DE0C731D89DF7466D971D60B6E1B41",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.009",
+                "md5": "0A7A60006A8E3B6A2A2AAF844E4D0725",
+                "size": "8262778880",
+                "decompressed_size": "18178113536"
+              },
+              {
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/VolumeZip/juequling_3.3.0_AS.zip.010",
+                "md5": "CD3C26737E0DE87874016A4A6DD68DAE",
+                "size": "8256834692",
+                "decompressed_size": "18165036323"
+              }
+            ],
+            "audio_pkgs": [
+              {
+                "language": "zh-cn",
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/audio_zip_Cn.zip",
+                "md5": "e594d3cc4abeb80ed3b0f75d7de35bab",
+                "size": "4525073074",
+                "decompressed_size": "9955160763"
+              },
+              {
+                "language": "en-us",
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/audio_zip_En.zip",
+                "md5": "fdc524d4836ac0cc8015849f5ab9569b",
+                "size": "4670647187",
+                "decompressed_size": "10275423812"
+              },
+              {
+                "language": "ja-jp",
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/audio_zip_Jp.zip",
+                "md5": "0622f2d7a7279031f1199b90cb02449e",
+                "size": "5145468395",
+                "decompressed_size": "11320030469"
+              },
+              {
+                "language": "ko-kr",
+                "url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/audio_zip_Kr.zip",
+                "md5": "2e3d54a3276b19436fd43a2041a4bd03",
+                "size": "4844054687",
+                "decompressed_size": "10656920312"
+              }
+            ],
+            "res_list_url": "https://autopatchcn.juequling.com/package_download/op/client_app/download/20260928113325_SPKnQ9EwS8OtBuEd/SplitAudioZip"
+          },
+          "patches": [
+            {
+              "version": "3.2.0",
+              "game_pkgs": [
+                {
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/game_3.2.0_3.3.0_hdiff_qUhsqukqdshBLcZU.zip",
+                  "md5": "0f4d8486eeac1581d6239a9542a05b8c",
+                  "size": "6815937275",
+                  "decompressed_size": "14505032256"
+                }
+              ],
+              "audio_pkgs": [
+                {
+                  "language": "zh-cn",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_zh-cn_3.2.0_3.3.0_hdiff_IcHcEcXkJdMMUKyQ.zip",
+                  "md5": "701bd1185b43d0f944d6a64c23060286",
+                  "size": "311343599",
+                  "decompressed_size": "634597660"
+                },
+                {
+                  "language": "en-us",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_en-us_3.2.0_3.3.0_hdiff_suOXlSkCxxsbzcxN.zip",
+                  "md5": "dfe722671259787b0a88e47b3fb2f822",
+                  "size": "194228671",
+                  "decompressed_size": "399867342"
+                },
+                {
+                  "language": "ja-jp",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ja-jp_3.2.0_3.3.0_hdiff_SqXLyxwANKcWnkOF.zip",
+                  "md5": "fb1d5e3fce7dcb6f28bc99b9327dd966",
+                  "size": "185826713",
+                  "decompressed_size": "383359801"
+                },
+                {
+                  "language": "ko-kr",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ko-kr_3.2.0_3.3.0_hdiff_eCCQjdfqlemSWZKm.zip",
+                  "md5": "c0af6e7de7346cbea51ffd5ff27bc634",
+                  "size": "170090806",
+                  "decompressed_size": "351764933"
+                }
+              ],
+              "res_list_url": ""
+            },
+            {
+              "version": "3.1.0",
+              "game_pkgs": [
+                {
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/game_3.1.0_3.3.0_hdiff_ELjVfGMOqQLUFNGA.zip",
+                  "md5": "51e1e818b78c097119ea656692b0fc28",
+                  "size": "11519925259",
+                  "decompressed_size": "24030354456"
+                }
+              ],
+              "audio_pkgs": [
+                {
+                  "language": "zh-cn",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_zh-cn_3.1.0_3.3.0_hdiff_ridCjmqsjIYxFvoL.zip",
+                  "md5": "3db9eb0b97d45136a81c484a3541bcd4",
+                  "size": "551966747",
+                  "decompressed_size": "1116800567"
+                },
+                {
+                  "language": "en-us",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_en-us_3.1.0_3.3.0_hdiff_djsmAnDvZdwuHRag.zip",
+                  "md5": "f7b3adda9b2ed0f9ebd5ef1968a88a93",
+                  "size": "488570049",
+                  "decompressed_size": "989435181"
+                },
+                {
+                  "language": "ja-jp",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ja-jp_3.1.0_3.3.0_hdiff_PYkpOAgBxJtSNYXi.zip",
+                  "md5": "5f4c1d13b92dc7a8071f7f5020f618a5",
+                  "size": "471655065",
+                  "decompressed_size": "956637516"
+                },
+                {
+                  "language": "ko-kr",
+                  "url": "https://autopatchcn.juequling.com/pclauncher/nap_cn/audio_ko-kr_3.1.0_3.3.0_hdiff_JLOFGwJmBhymywGB.zip",
+                  "md5": "fc7858c923764a4ba349a08c69109812",
+                  "size": "463922679",
+                  "decompressed_size": "940569290"
+                }
+              ],
+              "res_list_url": ""
+            }
+          ],
+          "required_client_version": "1.16.1.364"
         }
       },
       {
